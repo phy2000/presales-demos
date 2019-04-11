@@ -1,0 +1,11 @@
+#!/bin/bash
+if [ -z "$KAFKA_HOME" ] ; then
+source /opt/kafka/env.sh
+fi
+PIDS=$(ps ax | grep -i 'kafka\.Kafka' | grep java | grep -v grep | awk '{print $1}')
+
+if [ -z "$PIDS" ]; then
+  echo "Kafka is not running on this host"
+else 
+  echo "Kafka is running on this host at pid(s) $PIDS"
+fi

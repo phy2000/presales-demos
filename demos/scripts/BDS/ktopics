@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if [ -z "$KAFKA_HOME" ] ; then
+source /opt/kafka/env.sh
+fi
+$KAFKA_BIN/kafka-topics.sh --list --zookeeper quickstart.cloudera:3181

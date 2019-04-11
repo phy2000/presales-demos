@@ -1,0 +1,34 @@
+#/bin/bash
+source /var/scripts/env.sh
+if [ -z "$INFA_HOME" ] ;then
+	export INFA_HOME=/opt/infa/current
+fi
+echo KAFKA:
+#for svc in zookeeper kafka kafka-rest ; do
+        #echo $svc:
+        #$CONFLUENT_HOME/bin/confluent start $svc
+        #sleep 5
+#done
+/var/scripts/iis/startkafka
+sleep 2
+echo SKIP ACTIVEMQ:
+#sudo service activemq start
+sleep 2
+echo ELASTIC:
+sudo service elasticsearch start
+sleep 2
+echo KIBANA:
+sudo service kibana start
+sleep 2
+echo SKIP EDS:
+#/var/scripts/starteds
+sleep 2
+echo CDC:
+cd /var/scripts/cdc
+./startcdcall
+echo -n SLEEPING...
+sleep 60
+echo NEXT
+echo INFA:
+cd $INFA_HOME/tomcat/bin
+./infaservice.sh startup

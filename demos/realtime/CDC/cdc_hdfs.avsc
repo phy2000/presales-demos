@@ -1,0 +1,92 @@
+{
+  "type" : "record",
+  "name" : "cdctest_CDCTEST",
+  "namespace" : "com.informatica.avro",
+  "doc" : "The Informatica Flat Change Data Capture Avro Schema (Version 1) for d8xe.cdctest_CDCTEST",
+  "fields" : [ {
+    "name" : "INFA_SEQUENCE",
+    "type" : [ "null", "string" ],
+    "doc" : "The Informatica assigned Sequence Number",
+    "default" : null
+  }, {
+    "name" : "DTL__CAPXACTION",
+    "type" : [ "null", "string" ],
+    "doc" : " Native Column Name=DTL__CAPXACTION. CDC DataType=CDC_VARCHAR. Prec=1. Scale=0. Native System=null. Native DataType=null. Position=5. Provider System=PowerExchange. Provider DataType=CHAR(1). isRowMetadata ",
+    "default" : null
+  }, {
+    "name" : "DTL__CAPXROWID",
+    "type" : [ "null", "string" ],
+    "doc" : " Native Column Name=DTL__CAPXROWID. CDC DataType=CDC_VARCHAR. Prec=18. Scale=0. Native System=null. Native DataType=null. Position=6. Provider System=PowerExchange. Provider DataType=CHAR(18). isRowMetadata ",
+    "default" : null
+  }, {
+    "name" : "DTL__CAPXTIMESTAMP",
+    "type" : [ "null", "string" ],
+    "doc" : " Native Column Name=DTL__CAPXTIMESTAMP. CDC DataType=CDC_VARCHAR. Prec=20. Scale=0. Native System=null. Native DataType=null. Position=4. Provider System=PowerExchange. Provider DataType=CHAR(20). isRowMetadata ",
+    "default" : null
+  }, {
+    "name" : "DTL__CAPXUSER",
+    "type" : [ "null", "string" ],
+    "doc" : " Native Column Name=DTL__CAPXUSER. CDC DataType=CDC_VARCHAR. Prec=255. Scale=0. Native System=null. Native DataType=null. Position=3. Provider System=PowerExchange. Provider DataType=VARCHAR(255). isRowMetadata ",
+    "default" : null
+  }, {
+    "name" : "INFA_OP_TYPE",
+    "type" : [ "null", "string" ],
+    "doc" : "The source operation type (insert, update or delete)",
+    "default" : null
+  }, {
+    "name" : "INFA_TABLE_NAME",
+    "type" : [ "null", "string" ],
+    "doc" : "The source table name",
+    "default" : null
+  }, {
+    "name" : "CNT",
+    "type" : [ "null", "string" ],
+    "doc" : " Native Column Name=CNT. CDC DataType=CDC_VARCHAR. Prec=64. Scale=0. Native System=null. Native DataType=null. Position=8. Provider System=PowerExchange. Provider DataType=DOUBLE.",
+    "default" : null
+  },  {
+    "name" : "CNT_beforeUpdateValue",
+    "type" : [ "null", "string" ],
+    "doc" : "Contains the before image of field CNT when the source table operation was an update.  Null otherwise.",
+    "default" : null
+  },  {
+    "name" : "MYKEY",
+    "type" : [ "null", "string" ],
+    "doc" : " Native Column Name=MYKEY. CDC DataType=CDC_VARCHAR. Prec=96. Scale=0. Native System=null. Native DataType=null. Position=7. Provider System=PowerExchange. Provider DataType=VARCHAR(32).",
+    "default" : null
+  },  {
+    "name" : "MYKEY_beforeUpdateValue",
+    "type" : [ "null", "string" ],
+    "doc" : "Contains the before image of field MYKEY when the source table operation was an update.  Null otherwise.",
+    "default" : null
+  },  {
+    "name" : "N17P3",
+    "type" : [ "null", "string" ],
+    "doc" : " Native Column Name=N17P3. CDC DataType=CDC_VARCHAR. Prec=21. Scale=0. Native System=null. Native DataType=null. Position=10. Provider System=PowerExchange. Provider DataType=ZONED(17,3).",
+    "default" : null
+  },  {
+    "name" : "N17P3_beforeUpdateValue",
+    "type" : [ "null", "string" ],
+    "doc" : "Contains the before image of field N17P3 when the source table operation was an update.  Null otherwise.",
+    "default" : null
+  },  {
+    "name" : "NVC",
+    "type" : [ "null", "string" ],
+    "doc" : " Native Column Name=NVC. CDC DataType=CDC_VARCHAR. Prec=384. Scale=0. Native System=null. Native DataType=null. Position=11. Provider System=PowerExchange. Provider DataType=VARCHAR(128).",
+    "default" : null
+  },  {
+    "name" : "NVC_beforeUpdateValue",
+    "type" : [ "null", "string" ],
+    "doc" : "Contains the before image of field NVC when the source table operation was an update.  Null otherwise.",
+    "default" : null
+  },  {
+    "name" : "TS",
+    "type" : [ "null", "string" ],
+    "doc" : " Native Column Name=TS. CDC DataType=CDC_VARCHAR. Prec=64. Scale=0. Native System=null. Native DataType=null. Position=9. Provider System=PowerExchange. Provider DataType=EXT_TIMESTAMP.",
+    "default" : null
+  },  {
+    "name" : "TS_beforeUpdateValue",
+    "type" : [ "null", "string" ],
+    "doc" : "Contains the before image of field TS when the source table operation was an update.  Null otherwise.",
+    "default" : null
+  } ]
+}

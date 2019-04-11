@@ -1,0 +1,2124 @@
+>>>>>>>>>>>>>>>>>>> Fri Jul 27 16:41:19 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-00116 KEY Warning - license(2) has  10 day(s) before expiration.
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:59080, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:59082, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:59084, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:59088, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:59088, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Sat Aug 4 21:41:37 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-00116 KEY Warning - license(2) has  2 day(s) before expiration.
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:55268, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:55270, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:55278, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:55280, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:55280, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Sat Aug 4 22:35:16 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped due to an error.
+  ------------------------------------------------
+
+>>>>>>>>>>>>>>>>>>> Sat Aug 4 22:37:18 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+2018-08-05 00:00:10,211 Extract(20) ERROR Unable to write to stream /opt/infa/pwxcdcpub110/ora_demo/logs/PwxCdcPublisher.out for appender TraceFile: org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to stream /opt/infa/pwxcdcpub110/ora_demo/logs/PwxCdcPublisher.out
+2018-08-05 00:00:10,213 Extract(20) ERROR An exception occurred processing Appender TraceFile org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to stream /opt/infa/pwxcdcpub110/ora_demo/logs/PwxCdcPublisher.out
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.writeToDestination(OutputStreamManager.java:258)
+	at org.apache.logging.log4j.core.appender.FileManager.writeToDestination(FileManager.java:177)
+	at org.apache.logging.log4j.core.appender.rolling.RollingFileManager.writeToDestination(RollingFileManager.java:185)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.flushBuffer(OutputStreamManager.java:288)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.flush(OutputStreamManager.java:297)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.directEncodeEvent(AbstractOutputStreamAppender.java:179)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.tryAppend(AbstractOutputStreamAppender.java:170)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.append(AbstractOutputStreamAppender.java:161)
+	at org.apache.logging.log4j.core.appender.RollingFileAppender.append(RollingFileAppender.java:268)
+	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:156)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:129)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:120)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:84)
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:448)
+	at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:433)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:417)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:403)
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:63)
+	at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:146)
+	at org.apache.logging.log4j.spi.ExtendedLoggerWrapper.logMessage(ExtendedLoggerWrapper.java:217)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2091)
+	at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:1813)
+	at org.apache.logging.log4j.spi.AbstractLogger.info(AbstractLogger.java:1267)
+	at com.infa.rat.logging.service.log4j2.impl.Log4J2LoggingService.info(Log4J2LoggingService.java:221)
+	at com.infa.rat.logging.service.CommonLoggingWithILogger.info(CommonLoggingWithILogger.java:459)
+	at com.informatica.rat.pwxqadapter.PowerExchangeExtractor$LoggerWithTraceAttributes.info(PowerExchangeExtractor.java:582)
+	at com.informatica.rat.pwxqadapter.PWXCaptureConsumer.shutdownCPPService(PWXCaptureConsumer.java:677)
+	at com.informatica.rat.pwxqadapter.PWXCaptureConsumer.runFinally(PWXCaptureConsumer.java:664)
+	at com.informatica.rat.pwxqadapter.HelperThreadBase.run(HelperThreadBase.java:594)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:326)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.writeToDestination(OutputStreamManager.java:256)
+	... 33 more
+
+2018-08-05 00:00:11,502 Extract(16) ERROR Unable to write to stream /opt/infa/pwxcdcpub110/ora_demo/logs/PwxCdcPublisher.out for appender TraceFile: org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to stream /opt/infa/pwxcdcpub110/ora_demo/logs/PwxCdcPublisher.out
+2018-08-05 00:00:11,502 Extract(16) ERROR An exception occurred processing Appender TraceFile org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to stream /opt/infa/pwxcdcpub110/ora_demo/logs/PwxCdcPublisher.out
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.writeToDestination(OutputStreamManager.java:258)
+	at org.apache.logging.log4j.core.appender.FileManager.writeToDestination(FileManager.java:177)
+	at org.apache.logging.log4j.core.appender.rolling.RollingFileManager.writeToDestination(RollingFileManager.java:185)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.flushBuffer(OutputStreamManager.java:288)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.flush(OutputStreamManager.java:297)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.directEncodeEvent(AbstractOutputStreamAppender.java:179)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.tryAppend(AbstractOutputStreamAppender.java:170)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.append(AbstractOutputStreamAppender.java:161)
+	at org.apache.logging.log4j.core.appender.RollingFileAppender.append(RollingFileAppender.java:268)
+	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:156)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:129)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:120)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:84)
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:448)
+	at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:433)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:417)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:403)
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:63)
+	at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:146)
+	at org.apache.logging.log4j.spi.ExtendedLoggerWrapper.logMessage(ExtendedLoggerWrapper.java:217)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2091)
+	at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:1813)
+	at org.apache.logging.log4j.spi.AbstractLogger.error(AbstractLogger.java:693)
+	at com.infa.rat.logging.service.log4j2.impl.Log4J2LoggingService.error(Log4J2LoggingService.java:175)
+	at com.infa.rat.logging.service.CommonLoggingWithILogger.error(CommonLoggingWithILogger.java:444)
+	at com.informatica.rat.pwxqadapter.MajorProcessor.runIndefinitely(MajorProcessor.java:1361)
+	at com.informatica.rat.pwxqadapter.MajorProcessor.run(MajorProcessor.java:1234)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:326)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.writeToDestination(OutputStreamManager.java:256)
+	... 31 more
+
+2018-08-05 00:00:11,508 Extract(16) ERROR Recovering from StringBuilderEncoder.encode('2018-08-05 00:00:11,506 [Extract(16)         ] ERROR [CDCPUB_10022] Stack Trace [java.lang.RuntimeException: java.lang.OutOfMemoryError: unable to create new native thread
+	at com.informatica.rat.pwxqadapter.HelperThreadBase.run(HelperThreadBase.java:582)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:717)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:957)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376)
+	at org.apache.logging.log4j.core.appender.rolling.RollingFileManager.rollover(RollingFileManager.java:378)
+	at org.apache.logging.log4j.core.appender.rolling.RollingFileManager.rollover(RollingFileManager.java:278)
+	at org.apache.logging.log4j.core.appender.rolling.RollingFileManager.checkRollover(RollingFileManager.java:218)
+	at org.apache.logging.log4j.core.appender.RollingFileAppender.append(RollingFileAppender.java:267)
+	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:156)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:129)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:120)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:84)
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:448)
+	at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:433)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:417)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:403)
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:63)
+	at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:146)
+	at org.apache.logging.log4j.spi.ExtendedLoggerWrapper.logMessage(ExtendedLoggerWrapper.java:217)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2091)
+	at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:1813)
+	at org.apache.logging.log4j.spi.AbstractLogger.info(AbstractLogger.java:1267)
+	at com.infa.rat.logging.service.log4j2.impl.Log4J2LoggingService.info(Log4J2LoggingService.java:221)
+	at com.infa.rat.logging.service.CommonLoggingWithILogger.info(CommonLoggingWithILogger.java:459)
+	at com.informatica.rat.pwxqadapter.PowerExchangeExtractor$LoggerWithTraceAttributes.info(PowerExchangeExtractor.java:582)
+	at com.informatica.rat.pwxqadapter.PWXCaptureConsumer.runIndefinitely(PWXCaptureConsumer.java:642)
+	at com.informatica.rat.pwxqadapter.HelperThreadBase.run(HelperThreadBase.java:561)
+	... 5 more
+].
+') error: org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to stream /opt/infa/pwxcdcpub110/ora_demo/logs/PwxCdcPublisher.out org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to stream /opt/infa/pwxcdcpub110/ora_demo/logs/PwxCdcPublisher.out
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.writeToDestination(OutputStreamManager.java:258)
+	at org.apache.logging.log4j.core.appender.FileManager.writeToDestination(FileManager.java:177)
+	at org.apache.logging.log4j.core.appender.rolling.RollingFileManager.writeToDestination(RollingFileManager.java:185)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.flushBuffer(OutputStreamManager.java:288)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.drain(OutputStreamManager.java:345)
+	at org.apache.logging.log4j.core.layout.TextEncoderHelper.drainIfByteBufferFull(TextEncoderHelper.java:147)
+	at org.apache.logging.log4j.core.layout.TextEncoderHelper.encodeAsMuchAsPossible(TextEncoderHelper.java:125)
+	at org.apache.logging.log4j.core.layout.TextEncoderHelper.encode(TextEncoderHelper.java:109)
+	at org.apache.logging.log4j.core.layout.TextEncoderHelper.encodeText(TextEncoderHelper.java:89)
+	at org.apache.logging.log4j.core.layout.StringBuilderEncoder.encodeSynchronized(StringBuilderEncoder.java:85)
+	at org.apache.logging.log4j.core.layout.StringBuilderEncoder.encode(StringBuilderEncoder.java:61)
+	at org.apache.logging.log4j.core.layout.StringBuilderEncoder.encode(StringBuilderEncoder.java:32)
+	at org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:219)
+	at org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:57)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.directEncodeEvent(AbstractOutputStreamAppender.java:177)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.tryAppend(AbstractOutputStreamAppender.java:170)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.append(AbstractOutputStreamAppender.java:161)
+	at org.apache.logging.log4j.core.appender.RollingFileAppender.append(RollingFileAppender.java:268)
+	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:156)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:129)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:120)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:84)
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:448)
+	at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:433)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:417)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:403)
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:63)
+	at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:146)
+	at org.apache.logging.log4j.spi.ExtendedLoggerWrapper.logMessage(ExtendedLoggerWrapper.java:217)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2091)
+	at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:1813)
+	at org.apache.logging.log4j.spi.AbstractLogger.error(AbstractLogger.java:693)
+	at com.infa.rat.logging.service.log4j2.impl.Log4J2LoggingService.error(Log4J2LoggingService.java:175)
+	at com.infa.rat.logging.service.CommonLoggingWithILogger.error(CommonLoggingWithILogger.java:444)
+	at com.informatica.rat.pwxqadapter.MajorProcessor.runIndefinitely(MajorProcessor.java:1366)
+	at com.informatica.rat.pwxqadapter.MajorProcessor.run(MajorProcessor.java:1234)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:326)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.writeToDestination(OutputStreamManager.java:256)
+	... 40 more
+
+2018-08-05 00:00:12,719 Extract(20) ERROR Recovering from StringBuilderEncoder.encode('2018-08-05 00:00:12,719 [Extract(20)         ] ERROR [CDCPUB_10022] Stack Trace [java.lang.RuntimeException: java.lang.OutOfMemoryError: unable to create new native thread
+	at com.informatica.rat.pwxqadapter.HelperThreadBase.run(HelperThreadBase.java:582)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:717)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:957)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376)
+	at org.apache.logging.log4j.core.appender.rolling.RollingFileManager.rollover(RollingFileManager.java:378)
+	at org.apache.logging.log4j.core.appender.rolling.RollingFileManager.rollover(RollingFileManager.java:278)
+	at org.apache.logging.log4j.core.appender.rolling.RollingFileManager.checkRollover(RollingFileManager.java:218)
+	at org.apache.logging.log4j.core.appender.RollingFileAppender.append(RollingFileAppender.java:267)
+	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:156)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:129)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:120)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:84)
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:448)
+	at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:433)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:417)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:403)
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:63)
+	at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:146)
+	at org.apache.logging.log4j.spi.ExtendedLoggerWrapper.logMessage(ExtendedLoggerWrapper.java:217)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2091)
+	at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:1813)
+	at org.apache.logging.log4j.spi.AbstractLogger.info(AbstractLogger.java:1267)
+	at com.infa.rat.logging.service.log4j2.impl.Log4J2LoggingService.info(Log4J2LoggingService.java:221)
+	at com.infa.rat.logging.service.CommonLoggingWithILogger.info(CommonLoggingWithILogger.java:459)
+	at com.informatica.rat.pwxqadapter.PowerExchangeExtractor$LoggerWithTraceAttributes.info(PowerExchangeExtractor.java:582)
+	at com.informatica.rat.pwxqadapter.PWXCaptureConsumer.runIndefinitely(PWXCaptureConsumer.java:642)
+	at com.informatica.rat.pwxqadapter.HelperThreadBase.run(HelperThreadBase.java:561)
+	... 5 more
+].
+') error: org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to stream /opt/infa/pwxcdcpub110/ora_demo/logs/PwxCdcPublisher.out org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to stream /opt/infa/pwxcdcpub110/ora_demo/logs/PwxCdcPublisher.out
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.writeToDestination(OutputStreamManager.java:258)
+	at org.apache.logging.log4j.core.appender.FileManager.writeToDestination(FileManager.java:177)
+	at org.apache.logging.log4j.core.appender.rolling.RollingFileManager.writeToDestination(RollingFileManager.java:185)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.flushBuffer(OutputStreamManager.java:288)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.drain(OutputStreamManager.java:345)
+	at org.apache.logging.log4j.core.layout.TextEncoderHelper.drainIfByteBufferFull(TextEncoderHelper.java:147)
+	at org.apache.logging.log4j.core.layout.TextEncoderHelper.encodeAsMuchAsPossible(TextEncoderHelper.java:125)
+	at org.apache.logging.log4j.core.layout.TextEncoderHelper.encode(TextEncoderHelper.java:109)
+	at org.apache.logging.log4j.core.layout.TextEncoderHelper.encodeText(TextEncoderHelper.java:89)
+	at org.apache.logging.log4j.core.layout.StringBuilderEncoder.encodeSynchronized(StringBuilderEncoder.java:85)
+	at org.apache.logging.log4j.core.layout.StringBuilderEncoder.encode(StringBuilderEncoder.java:61)
+	at org.apache.logging.log4j.core.layout.StringBuilderEncoder.encode(StringBuilderEncoder.java:32)
+	at org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:219)
+	at org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:57)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.directEncodeEvent(AbstractOutputStreamAppender.java:177)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.tryAppend(AbstractOutputStreamAppender.java:170)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.append(AbstractOutputStreamAppender.java:161)
+	at org.apache.logging.log4j.core.appender.RollingFileAppender.append(RollingFileAppender.java:268)
+	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:156)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:129)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:120)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:84)
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:448)
+	at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:433)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:417)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:403)
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:63)
+	at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:146)
+	at org.apache.logging.log4j.spi.ExtendedLoggerWrapper.logMessage(ExtendedLoggerWrapper.java:217)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2091)
+	at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:1813)
+	at org.apache.logging.log4j.spi.AbstractLogger.error(AbstractLogger.java:693)
+	at com.infa.rat.logging.service.log4j2.impl.Log4J2LoggingService.error(Log4J2LoggingService.java:175)
+	at com.infa.rat.logging.service.CommonLoggingWithILogger.error(CommonLoggingWithILogger.java:444)
+	at com.informatica.rat.pwxqadapter.PowerExchangeExtractor$LoggerWithTraceAttributes.error(PowerExchangeExtractor.java:577)
+	at com.informatica.rat.pwxqadapter.HelperThreadBase.run(HelperThreadBase.java:618)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:326)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.writeToDestination(OutputStreamManager.java:256)
+	... 40 more
+
+PowerExchange CDC Publisher from Informatica LLC is no longer running.
+Helper <Extract Capture Consumer > failed with throwable: unable to create new native thread
+PowerExchange CDC Publisher from Informatica LLC is stopping, but not due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped due to an error.
+  ------------------------------------------------
+
+main: Threw uncaught exception :java.lang.OutOfMemoryError: unable to create new native thread
+Aug 05, 2018 12:22:24 AM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-2484: accept loop for ServerSocket[addr=localhost/127.0.0.1,localport=2484] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:717)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:957)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1378)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:748)
+
+>>>>>>>>>>>>>>>>>>> Sun Aug 5 00:23:06 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+Error: Exception thrown by the agent : java.rmi.server.ExportException: Port already in use: 2484; nested exception is: 
+	java.net.BindException: Address already in use (Bind failed)
+Aug 05, 2018 12:23:43 AM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-2484: accept loop for ServerSocket[addr=localhost/127.0.0.1,localport=2484] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:717)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:957)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1378)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:748)
+
+Aug 05, 2018 12:24:44 AM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-2484: accept loop for ServerSocket[addr=localhost/127.0.0.1,localport=2484] throws
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:717)
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:957)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1378)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:415)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:748)
+
+Java HotSpot(TM) 64-Bit Server VM warning: Exception java.lang.OutOfMemoryError occurred dispatching signal SIGTERM to handler- the VM may need to be forcibly terminated
+Java HotSpot(TM) 64-Bit Server VM warning: Exception java.lang.OutOfMemoryError occurred dispatching signal SIGTERM to handler- the VM may need to be forcibly terminated
+/opt/infa/pwxcdcpub110/bin/PwxCDCPublisher.sh: line 163:  1641 Killed                  $JAVA_HOME/bin/java $RUN "$@"
+>>>>>>>>>>>>>>>>>>> Sun Aug 5 00:25:21 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-00116 KEY Warning - license(2) has  1 day(s) before expiration.
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:34938, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:34940, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:34942, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:34950, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:34950, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Sun Aug 5 00:39:18 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+Connectivity check failed. Error :A test connection to Kafka was unsuccessful. The Kafka broker might be down or unreachable, or the Kafka Producer properties file might be incorrect. Error description: [No Kafka brokers could be successfully connected to. Broker list is <localhost:9092>Broker <localhost:9092> failed with error <Connection refused (Connection refused)>. ].
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped due to an error.
+  ------------------------------------------------
+
+>>>>>>>>>>>>>>>>>>> Sun Aug 5 00:46:46 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-00116 KEY Warning - license(2) has  1 day(s) before expiration.
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:44114, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:44122, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:44124, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:44126, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:44126, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Sun Aug 5 01:16:37 CDT 2018
+ERROR - JAVA_HOME Environment Variable is NOT defined
+Please set environment variable JAVA_HOME equal to your local Java Runtime Environment installation
+>>>>>>>>>>>>>>>>>>> Sun Aug 5 01:20:07 CDT 2018
+ERROR - JAVA_HOME Environment Variable is NOT defined
+Please set environment variable JAVA_HOME equal to your local Java Runtime Environment installation
+>>>>>>>>>>>>>>>>>>> Sun Aug 5 01:25:32 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+ERROR - PowerExchange client library [libdtlscli.so] was not found in the LD_LIBRARY_PATH
+Please install the PowerExchange client libraries and verify they are in the current LD_LIBRARY_PATH
+>>>>>>>>>>>>>>>>>>> Sun Aug 5 01:26:46 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-00116 KEY Warning - license(2) has  1 day(s) before expiration.
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:52354, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:52356, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:52358, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:52364, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:52364, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Sun Aug 5 01:34:11 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is no longer running.
+Helper <Extract Capture Consumer > failed with exception: Extract Capture Consumer > the CPPService stopped unexpectedly! CPPService return code is <0>
+PowerExchange CDC Publisher from Informatica LLC is stopping, but not due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped due to an error.
+  ------------------------------------------------
+
+PWX-00116 KEY Warning - license(2) has  1 day(s) before expiration.
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:53720, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:53724, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:53732, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:53734, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:53734, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Sun Aug 5 08:40:55 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+ERROR - PowerExchange client library [libdtlscli.so] was not found in the LD_LIBRARY_PATH
+Please install the PowerExchange client libraries and verify they are in the current LD_LIBRARY_PATH
+>>>>>>>>>>>>>>>>>>> Sun Aug 5 09:12:18 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+ERROR - PowerExchange client library [libdtlscli.so] was not found in the LD_LIBRARY_PATH
+Please install the PowerExchange client libraries and verify they are in the current LD_LIBRARY_PATH
+>>>>>>>>>>>>>>>>>>> Sun Aug 5 09:14:54 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+>>>>>>>>>>>>>>>>>>> Sun Aug 5 09:16:57 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+Error: Exception thrown by the agent : java.rmi.server.ExportException: Port already in use: 2484; nested exception is: 
+	java.net.BindException: Address already in use (Bind failed)
+>>>>>>>>>>>>>>>>>>> Sun Aug 5 09:20:32 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+Error: Exception thrown by the agent : java.rmi.server.ExportException: Port already in use: 2484; nested exception is: 
+	java.net.BindException: Address already in use (Bind failed)
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-00116 KEY Warning - license(2) has  1 day(s) before expiration.
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:53490, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:53492, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:53496, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:53498, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:53498, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Sun Aug 5 09:26:12 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-00116 KEY Warning - license(2) has  1 day(s) before expiration.
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:55866, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:55868, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:55872, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:55874, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:55874, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Wed Aug 8 12:13:17 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped due to an error.
+  ------------------------------------------------
+
+>>>>>>>>>>>>>>>>>>> Wed Aug 8 12:26:52 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-00116 KEY Warning - license(2) has  30 day(s) before expiration.
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:44548, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:44552, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:44556, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:44560, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:44560, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Wed Aug 8 12:50:18 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped due to an error.
+  ------------------------------------------------
+
+>>>>>>>>>>>>>>>>>>> Wed Aug 8 12:55:37 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:49992, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:49994, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:49996, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:49998, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:49998, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Wed Aug 8 22:10:30 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+Connectivity check failed. Error :A test connection to Kafka was unsuccessful. The Kafka broker might be down or unreachable, or the Kafka Producer properties file might be incorrect. Error description: [No Kafka brokers could be successfully connected to. Broker list is <localhost:9092>Broker <localhost:9092> failed with error <Connection refused (Connection refused)>. ].
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped due to an error.
+  ------------------------------------------------
+
+>>>>>>>>>>>>>>>>>>> Wed Aug 8 22:20:55 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:43636, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:43638, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:43646, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:43652, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:43652, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Fri Aug 10 08:59:52 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+Connectivity check failed. Error :A test connection to Kafka was unsuccessful. The Kafka broker might be down or unreachable, or the Kafka Producer properties file might be incorrect. Error description: [No Kafka brokers could be successfully connected to. Broker list is <localhost:9092>Broker <localhost:9092> failed with error <Connection refused (Connection refused)>. ].
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped due to an error.
+  ------------------------------------------------
+
+>>>>>>>>>>>>>>>>>>> Tue Aug 21 15:00:48 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:40254, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:40256, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:40262, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:40286, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:40286, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Wed Aug 22 19:08:51 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+Connectivity check failed. Error :A test connection to Kafka was unsuccessful. The Kafka broker might be down or unreachable, or the Kafka Producer properties file might be incorrect. Error description: [No Kafka brokers could be successfully connected to. Broker list is <localhost:9092>Broker <localhost:9092> failed with error <Connection refused (Connection refused)>. ].
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped due to an error.
+  ------------------------------------------------
+
+>>>>>>>>>>>>>>>>>>> Fri Aug 24 21:58:39 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is no longer running.
+Helper <Extract Capture Consumer > failed with exception: Extract Capture Consumer > the CPPService stopped unexpectedly! CPPService return code is <0>
+PowerExchange CDC Publisher from Informatica LLC is stopping, but not due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped due to an error.
+  ------------------------------------------------
+
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:55234, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:55244, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:55246, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:55252, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:55252, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Sat Aug 25 10:00:05 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+Connectivity check failed. Error :A test connection to Kafka was unsuccessful. The Kafka broker might be down or unreachable, or the Kafka Producer properties file might be incorrect. Error description: [No Kafka brokers could be successfully connected to. Broker list is <localhost:9092>Broker <localhost:9092> failed with error <Connection refused (Connection refused)>. ].
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped due to an error.
+  ------------------------------------------------
+
+>>>>>>>>>>>>>>>>>>> Sat Aug 25 10:04:38 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:51648, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:51650, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:51660, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:51664, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:51664, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Sat Aug 25 18:16:35 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:50808, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:50812, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:50830, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:50834, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:50834, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Mon Aug 27 12:15:04 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+Connectivity check failed. Error :A test connection to Kafka was unsuccessful. The Kafka broker might be down or unreachable, or the Kafka Producer properties file might be incorrect. Error description: [No Kafka brokers could be successfully connected to. Broker list is <localhost:9092>Broker <localhost:9092> failed with error <Connection refused (Connection refused)>. ].
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped due to an error.
+  ------------------------------------------------
+
+>>>>>>>>>>>>>>>>>>> Mon Aug 27 12:35:50 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:32906, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:32916, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:32920, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:32928, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:32928, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Mon Aug 27 15:02:35 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:48894, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:48898, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:48900, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:48904, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:48904, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Tue Aug 28 15:45:13 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:41822, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:41826, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:41830, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:41842, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:41842, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Wed Aug 29 09:58:14 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:42434, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:42438, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:42442, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:42448, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:42448, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Wed Aug 29 14:24:05 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:42802, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:42804, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:42814, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:42818, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:42818, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Wed Aug 29 15:42:51 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:55606, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:55610, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:55622, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:55628, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:55628, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Thu Aug 30 15:41:41 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:35686, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:35688, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:35692, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:35696, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:35696, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Thu Aug 30 16:09:27 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:42408, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:42410, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:42414, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:42420, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:42420, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Wed Sep 5 13:10:04 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:50456, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:50460, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:50468, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:50470, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:50470, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Tue Sep 11 08:11:27 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:49924, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:49928, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:49936, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:49940, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:49940, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Thu Sep 20 10:58:30 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:35398, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:35400, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:35402, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:35404, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:35404, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Fri Sep 21 10:03:48 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:46252, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:46256, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:46264, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:46268, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:46268, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Tue Oct 9 08:59:19 CDT 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:33970, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:33976, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:33984, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:33986, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:33986, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Wed Nov 7 08:36:46 CST 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:44000, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:44004, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:44006, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:44010, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:44010, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Wed Nov 7 13:43:40 CST 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+Connectivity check failed. Error :A test connection to Kafka was unsuccessful. The Kafka broker might be down or unreachable, or the Kafka Producer properties file might be incorrect. Error description: [No Kafka brokers could be successfully connected to. Broker list is <localhost:9092>Broker <localhost:9092> failed with error <Connection refused (Connection refused)>. ].
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped due to an error.
+  ------------------------------------------------
+
+>>>>>>>>>>>>>>>>>>> Wed Nov 7 13:53:00 CST 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+Connectivity check failed. Error :A test connection to Kafka was unsuccessful. The Kafka broker might be down or unreachable, or the Kafka Producer properties file might be incorrect. Error description: [No Kafka brokers could be successfully connected to. Broker list is <localhost:9092>Broker <localhost:9092> failed with error <Connection refused (Connection refused)>. ].
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped due to an error.
+  ------------------------------------------------
+
+>>>>>>>>>>>>>>>>>>> Wed Nov 7 13:54:20 CST 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:54924, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:54926, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:54928, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:54934, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:54934, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Thu Nov 8 11:26:16 CST 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+Connectivity check failed. Error :A test connection to Kafka was unsuccessful. The Kafka broker might be down or unreachable, or the Kafka Producer properties file might be incorrect. Error description: [No Kafka brokers could be successfully connected to. Broker list is <localhost:9092>Broker <localhost:9092> failed with error <Connection refused (Connection refused)>. ].
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped due to an error.
+  ------------------------------------------------
+
+>>>>>>>>>>>>>>>>>>> Thu Nov 8 11:29:55 CST 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:35188, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:35196, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:35198, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:35202, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:35202, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Thu Nov 8 20:53:49 CST 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+Connectivity check failed. Error :A test connection to Kafka was unsuccessful. The Kafka broker might be down or unreachable, or the Kafka Producer properties file might be incorrect. Error description: [No Kafka brokers could be successfully connected to. Broker list is <localhost:9092>Broker <localhost:9092> failed with error <Connection refused (Connection refused)>. ].
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped due to an error.
+  ------------------------------------------------
+
+>>>>>>>>>>>>>>>>>>> Thu Nov 8 21:15:21 CST 2018
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:49028, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:49032, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:49036, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:49038, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:49038, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Wed Mar 20 13:32:05 CDT 2019
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped due to an error.
+  ------------------------------------------------
+
+>>>>>>>>>>>>>>>>>>> Wed Mar 20 14:07:58 CDT 2019
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+Connectivity check failed. Error :A test connection to Kafka was unsuccessful. The Kafka broker might be down or unreachable, or the Kafka Producer properties file might be incorrect. Error description: [No Kafka brokers could be successfully connected to. Broker list is <localhost:9092>Broker <localhost:9092> failed with error <Connection refused (Connection refused)>. ].
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped due to an error.
+  ------------------------------------------------
+
+>>>>>>>>>>>>>>>>>>> Wed Mar 20 14:09:49 CDT 2019
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:58544, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:58560, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:58562, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:58564, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:58564, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Thu Mar 21 08:34:52 CDT 2019
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+Connectivity check failed. Error :A test connection to Kafka was unsuccessful. The Kafka broker might be down or unreachable, or the Kafka Producer properties file might be incorrect. Error description: [No Kafka brokers could be successfully connected to. Broker list is <localhost:9092>Broker <localhost:9092> failed with error <Connection refused (Connection refused)>. ].
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped due to an error.
+  ------------------------------------------------
+
+>>>>>>>>>>>>>>>>>>> Thu Mar 21 08:42:37 CDT 2019
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:53598, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:53602, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:53620, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:53624, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:53624, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Tue Apr 2 10:10:09 CDT 2019
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+Connectivity check failed. Error :A test connection to Kafka was unsuccessful. The Kafka broker might be down or unreachable, or the Kafka Producer properties file might be incorrect. Error description: [No Kafka brokers could be successfully connected to. Broker list is <localhost:9092>Broker <localhost:9092> failed with error <Connection refused (Connection refused)>. ].
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped due to an error.
+  ------------------------------------------------
+
+>>>>>>>>>>>>>>>>>>> Tue Apr 2 21:40:06 CDT 2019
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:60636, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:60648, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:60650, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:60656, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:60656, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Wed Apr 3 07:57:09 CDT 2019
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:34830, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:34838, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:34840, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:34844, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:34844, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+>>>>>>>>>>>>>>>>>>> Wed Apr 3 08:42:17 CDT 2019
+Java version:
+java version "1.8.0_162"
+Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC 1.1.0
+
+  Copyright (C) 2014-2018 Informatica LLC. All rights reserved. See patents at https://www.informatica.com/legal/patents.html.
+
+  GA Change#7066978 Tue Jun 05 15:55:42 CDT 2018
+
+  INSTANCE = ora_demo. CDC Publisher Started. Listening on host:port localhost:2484
+  ----------------------------------------------------------------------------------------------------------------------------
+
+  Running...
+PowerExchange CDC Publisher from Informatica LLC is stopping due to a shutdown request.
+
+  ------------------------------------------------
+  PowerExchange CDC Publisher from Informatica LLC
+
+  CDC Publisher Stopped
+  ------------------------------------------------
+
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:32868, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:32870, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:32876, Type: CAPX, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).
+PWX-33304 Connection: 127.0.0.1:32882, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-33304 Connection: 127.0.0.1:32882, Type: CAPXRT, Task ID: 0, Operation timeout: (-) secs, Heartbeat interval: 30 secs, Session: (-)
+PWX-07122 DTLSCLI connected using DTLConnect PWX Version: 10.2.0, Patch Level: V1020_B08_6085968, Local code pages: Control=UTF-8 (41) Data=ISO-8859 (1) SQL=UTF-8 (41).

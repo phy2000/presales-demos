@@ -1,0 +1,16 @@
+#!/bin/bash 
+
+BROKER=napslxcdh01:9092
+USAGE="Usage: $0 <kafkatopic>"
+
+if [ $# -lt 1 ] ; then
+	echo $USAGE >&2
+	exit -1
+fi
+
+TOPIC=$1
+SCRIPTDIR=$(cd $(dirname $0) && pwd -P)
+PYTHONDIR=$SCRIPTDIR/python
+
+cd $PYTHONDIR
+./kafkaConsumerRaw.py -b $BROKER -t $TOPIC

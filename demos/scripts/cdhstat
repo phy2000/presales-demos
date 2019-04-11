@@ -1,0 +1,46 @@
+#!/bin/bash 
+source /var/scripts/env.sh
+COL="\E[60G"
+GREEN="\E[1;32m"
+RED="\E[1;31m"
+
+let i=0
+
+CDHPROG[$i]="cloudera-scm-server;Cloudera Manager Server"; let i=i+1
+CDHPROG[$i]="cmf-agent;Cloudera Manager Agent"; let i=i+1
+CDHPROG[$i]="org.apache.hadoop.hbase.master ;hbase"; let i=i+1
+CDHPROG[$i]="org.apache.hadoop.hdfs.server.namenode.NameNode;hdfs"; let i=i+1
+CDHPROG[$i]="org.apache.hive.service.server;Hive"; let i=i+1
+CDHPROG[$i]="hue/build/env/bin/hue;Hue" ; let i=i+1
+CDHPROG[$i]="org.apache.hadoop.mapreduce;Map Reduce"; let i=i+1
+CDHPROG[$i]="org.apache.spark.deploy;Spark"; let i=i+1
+CDHPROG[$i]="Dsqoop.admin.port;Sqoop2"; let i=i+1
+CDHPROG[$i]="org.apache.hadoop.yarn.server.nodemanager;Yarn Node Manager"; let i=i+1
+CDHPROG[$i]="org.apache.hadoop.yarn.server.resourcemanager;Yarn Resource Manager"; let i=i+1
+CDHPROG[$i]="org.apache.zookeeper.server.quorum.QuorumPeerMain;Zookeeper"; let i=i+1
+CDHPROG[$i]="com.cloudera.kafka.wrap.Kafka;Kafka Server"; let i=i+1
+CDHPROG[$i]="impala/sbin-retail/impalad;Impala"; let i=i+1
+CDHPROG[$i]="Doozie.home.dir;Oozie"; let i=i+1
+CDHPROG[$i]="Dsolr.admin.port;Solr"; let i=i+1
+
+for p in "${CDHPROG[@]}"
+do
+	st=${p%;*}
+	dt=${p#*;}
+
+	#c=$(ps -ef | grep $st | grep -v grep | wc -l)
+	#c=$(ps -ef | grep $st | grep -v grep | cut -b 9-15 | tr -d " ")
+	c=$(ps -ef | grep $st | grep -v grep | awk '{print $2}'| tr "\n" " " | sed -e 's/ $//')
+
+	echo -n $dt
+	echo -en $COL
+	#if [ $c -gt 0 ]; then
+	if [ "$c" ]; then
+		echo -en $GREEN
+		echo "Started($c)"
+	else
+		echo -en $RED
+		echo "Stopped"
+	fi
+	tput sgr0
+done

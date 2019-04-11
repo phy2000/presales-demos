@@ -1,0 +1,16 @@
+#!/bin/bash 
+
+KAFKA_HOME=/opt/kafka
+ZOOKEEPER=napslxcdh01:2181
+USAGE="Usage: $0 <kafkatopic>"
+
+if [ $# -lt 1 ] ; then
+	echo $USAGE >&2
+	exit -1
+fi
+
+TOPIC=$1
+SCRIPTDIR=$(cd $(dirname $0) && pwd -P)
+
+cd $KAFKA_HOME
+bin/kafka-topics.sh --create --zookeeper $ZOOKEEPER --replication-factor 1 --partitions 1 --topic $TOPIC

@@ -1,0 +1,11 @@
+#!/bin/bash
+USAGE="$0 <applicationID>"
+if [ $# -lt 1 ]; then
+echo $USAGE >&2
+exit -1
+fi
+
+APPID=$1
+echo saving logs to $APPID.log
+
+yarn logs -applicationId=$APPID > $APPID.log

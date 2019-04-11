@@ -1,0 +1,19 @@
+[
+  {
+    "_id": "WebLogsDEMO",
+    "_type": "dashboard",
+    "_source": {
+      "title": "geo_weblogs",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[\n  {\n    \"col\": 1,\n    \"id\": \"Date_time_Histogram_by_pageType\",\n    \"panelIndex\": 1,\n    \"row\": 1,\n    \"size_x\": 3,\n    \"size_y\": 3,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 4,\n    \"id\": \"PageType\",\n    \"panelIndex\": 2,\n    \"row\": 1,\n    \"size_x\": 3,\n    \"size_y\": 2,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 7,\n    \"id\": \"PageHits-per-Month\",\n    \"panelIndex\": 3,\n    \"row\": 1,\n    \"size_x\": 3,\n    \"size_y\": 4,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 4,\n    \"id\": \"OrderedProductOverTime\",\n    \"panelIndex\": 6,\n    \"row\": 3,\n    \"size_x\": 3,\n    \"size_y\": 2,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 1,\n    \"id\": \"Top-10-defects-rtotal\",\n    \"panelIndex\": 7,\n    \"row\": 4,\n    \"size_x\": 3,\n    \"size_y\": 2,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 1,\n    \"id\": \"Top10-Products-Retuned\",\n    \"panelIndex\": 8,\n    \"row\": 6,\n    \"size_x\": 3,\n    \"size_y\": 2,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 10,\n    \"id\": \"Top10ProductsReturnsByProductsId\",\n    \"panelIndex\": 9,\n    \"row\": 1,\n    \"size_x\": 3,\n    \"size_y\": 3,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 4,\n    \"id\": \"Top5ProductsReturnsByProductsId\",\n    \"panelIndex\": 10,\n    \"row\": 5,\n    \"size_x\": 3,\n    \"size_y\": 3,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 7,\n    \"id\": \"QuaterlyTopProductsDefectReturns\",\n    \"panelIndex\": 11,\n    \"row\": 5,\n    \"size_x\": 3,\n    \"size_y\": 4,\n    \"type\": \"visualization\"\n  }\n]",
+      "optionsJSON": "{\n  \"darkTheme\": true\n}",
+      "uiStateJSON": "{}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"filter\": [\n    {\n      \"query\": {\n        \"query_string\": {\n          \"analyze_wildcard\": true,\n          \"query\": \"*\"\n        }\n      }\n    }\n  ]\n}"
+      }
+    }
+  }
+]

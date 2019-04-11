@@ -1,0 +1,2 @@
+#!/bin/bash
+sed -E -e 's/\s+/\n/g' | sed -E -e 's/:/\n/g'

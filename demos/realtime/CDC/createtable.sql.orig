@@ -1,0 +1,17 @@
+CONNECT / AS SYSDBA;     
+
+--
+-- For testing, create an IVP table
+--
+CREATE TABLE cdctest.cdctest 
+(mykey VARCHAR2(100) NOT NULL ENABLE, 
+ cnt NUMBER(5),
+ ts VARCHAR2(100), 
+ n17p3 NUMBER(5),
+ nvc VARCHAR2(100),
+ PRIMARY KEY (mykey), 
+ SUPPLEMENTAL LOG DATA (ALL) COLUMNS);
+
+INSERT INTO cdctest.cdctest VALUES ('mykey',1,'ts', 1, 'nvc');
+
+COMMIT;

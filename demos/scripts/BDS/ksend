@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -z "$KAFKA_HOME" ] ; then
+source /opt/kafka/env.sh
+fi
+TOPIC=$1
+shift
+$KAFKA_BIN/kafka-console-producer.sh --broker-list $KAFKA_HOST:$KAFKA_PORT --topic $TOPIC $*

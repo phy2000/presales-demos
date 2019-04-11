@@ -1,0 +1,12 @@
+#!/bin/bash
+if [ -z "$PWX_HOME" ] ; then
+source /var/scripts/env.sh
+fi
+if [ -z "$PWX_HOME" ] ; then
+echo PWX_HOME is not set - exiting >&2
+exit
+fi
+THISDIR=$(dirname $0)
+$THISDIR/stoppub.sh
+sleep 10
+$THISDIR/stoppwx.sh

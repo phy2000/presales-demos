@@ -1,0 +1,45 @@
+COL="\E[60G"
+GREEN="\E[1;32m"
+RED="\E[1;31m"
+
+let i=0
+
+PROG[$i]="org.elasticsearch.bootstrap.Elasticsearch;Elasticsearch Server"; let i=i+1
+PROG[$i]="bin/../src/cli;Kibana"; let i=i+1
+PROG[$i]="/bin/activemq.jar;ActiveMQ Server"; let i=i+1
+
+PROG[$i]="ISPTomcatBootstrap;INFA Domain"; let i=i+1
+PROG[$i]="AdministratorConsole;INFA Adminconsole"; let i=i+1
+PROG[$i]="ModelRepositoryService/presales_mrs_jsf;Model Repository presales_mrs"; let i=i+1
+PROG[$i]="DataIntegrationService/presales_dis;Data Integration Service presales_dis"; let i=i+1
+PROG[$i]="AnalystService/presales_analyst_jsf;Analyst Service presales_analyst"; let i=i+1
+PROG[$i]="ContentManagementService;Content Management Service CMS"; let i=i+1
+PROG[$i]="pmrepagent;PowerCenter Repository presales_pwc_repo"; let i=i+1
+PROG[$i]="pmserver;PowerCenter Integration Service presales_dis"; let i=i+1
+PROG[$i]="/MetadataManagerService/presales_mm/;Metadata Manager Service presales_mm"; let i=i+1
+
+PROG[$i]="com.informatica.vds.BingeMain;VDS Node"; let i=i+1
+PROG[$i]="org.apache.zookeeper.server.quorum.QuorumPeerMain;VDS Zookeeper(CDH)"; let i=i+1
+PROG[$i]="admind/bin/lbmrd;UM Resolver Daemon lbmrd"; let i=i+1
+PROG[$i]="com.informatica.messaging.admind.UMMonD;VDS Admin Daemon admind"; let i=i+1
+
+    for p in "${PROG[@]}"
+    do
+        st=${p%;*}
+        dt=${p#*;}
+
+        #c=$(ps -ef | grep $st | grep -v grep | wc -l)
+        c=$(ps -ef | grep $st | grep -v grep | cut -b 9-15 | tr -d " ")
+
+        echo -n $dt
+        echo -en $COL
+        #if [ $c -gt 0 ]; then
+        if [ "$c" ]; then
+                echo -en $GREEN
+                echo "Started($c)"
+        else
+                echo -en $RED
+                echo "Stopped"
+        fi
+        tput sgr0
+    done

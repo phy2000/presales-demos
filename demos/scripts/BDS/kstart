@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ -z "$KAFKA_HOME" ] ; then
+source /opt/kafka/env.sh
+fi
+if ! checkInfaUser ; then
+	exit
+fi
+$KAFKA_BIN/zookeeper-server-start.sh -daemon $KAFKA_CONFIG/zookeeper.properties
+sleep 10
+$KAFKA_BIN/kafka-server-start.sh -daemon $KAFKA_CONFIG/server.properties

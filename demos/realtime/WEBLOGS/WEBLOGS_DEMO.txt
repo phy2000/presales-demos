@@ -1,0 +1,205 @@
+The demo is composed of:
+  - A VDS data flow (ACME_Weblogs_Syslog2Kafka) listening for weblogs on a UDP Syslog port, formatting it to flat JSON on-the-fly and publishing it on a Kafka topic (WebLog) 
+  - An IIS mapping listening to WebLog kafka topic and processing it further by:
+        > Filtering the type of page visit (retrurns, orders, reviews, info requests)
+		> Storing weblogs in raw format into a HBASE table (WebLogs) for datalake storage
+		> Storing weblogs in enriched format into a HBASE table (WebLogs_enriched)
+		> Publishing weblogs in enriched format to a kafka topic (WebLog_outJSON)
+		> Indexing the enriched weblogs to ElasticSearch (geo_weblogs) for kibana visualizations
+		
+cd /infa/work/Weblogs/WeblogsDemoArtifacts
+
+1) ./es_reset_index_geo_weblogs.sh
+
+2) Reset HBASE
+   - Ensure HBASE framework is running from Cloudera cluster UI and restart it if needed
+   - Truncate the weblog tables
+   - Query content with SCAN command to show that tables are empty initially
+   
+   > hbase shell
+   > list  (to see all tables)
+   > truncate "WebLogs"
+   > truncate "WebLogs_enriched"
+   > scan "WebLogs"
+   > scan "WebLogs_enriched"
+   > count "WebLogs"
+   > exit
+   
+3) Listen to output kafka topic of VDS flow (also IIS inbound topic)
+   python kafka_client_WebLog.py
+
+4) Listen to enriched IIS output on a kafka topic
+   python kafka_client_WebLog_outJSON.py
+   
+5) Deploy the VDS flow (ACME_Weblogs_Syslog2Kafka)
+
+6) Run the IIS mapping (ACME_IISLab_WEBLOGS_ES_HBASE_NOprobe)
+
+7) Feed the weblogs on the Syslog UDP port using this python script:
+   python weblogs_syslog_generator_auto.py
+   which reads from the file weblogs.log and sends on Syslog, line by line, chnging the old timestamp with a current one
+  
+8) Show raw weblog data coming out of VDS and enriched weblogs (with derived extra fields baswed on page type) coming out of IIS script using the python scripts at 3 and 4 above for listening on kafka topics
+
+9) Check that the Kibana index (geo_weblogs) is populated:
+   ./es_check_indexes.sh
+   
+10) Show the Kibana dasboard being populated:
+http://quickstart.cloudera:5601/app/kibana#/dashboard/WebLogsDEMO?_g=(refreshInterval:('$$hashKey':'object:377',display:'5%20seconds',pause:!f,section:1,value:5000),time:(from:now-15m,mode:quick,to:now))&_a=(filters:!(),options:(darkTheme:!t),panels:!((col:1,id:'483fe040-5cf8-11e7-9d0d-83c80c937121',panelIndex:14,row:1,size_x:5,size_y:4,type:visualization),(col:6,id:dcdef1f0-5ea6-11e7-9349-dd541a093513,panelIndex:15,row:1,size_x:4,size_y:3,type:visualization),(col:1,id:a4b016c0-5f77-11e7-a321-97658d162252,panelIndex:16,row:5,size_x:5,size_y:4,type:visualization),(col:6,id:'652690f0-5f78-11e7-b607-dbcaad7b4dec',panelIndex:17,row:4,size_x:5,size_y:4,type:visualization),(col:10,id:db16de40-5f79-11e7-9775-639154057db9,panelIndex:18,row:1,size_x:3,size_y:3,type:visualization)),query:(query_string:(analyze_wildcard:!t,query:'*')),title:geo_weblogs,uiState:(P-15:(vis:(defaultColors:('0%20-%201':'rgb(247,252,245)','1%20-%202':'rgb(199,233,192)','2%20-%203':'rgb(116,196,118)','3%20-%203':'rgb(35,139,69)')))))
+
+11) Show that weblogs have been stored into HBASE in both raw and enriched format (for historical batch analytics) by running the following HBASE shell commands:
+       > scan "WebLogs"
+       > scan "WebLogs_enriched"
+
+===END===
+
+To export the VDS flow:
+infacmd vds exportDataFlow -dn Domain_bdm1011 -un Administrator -pd infa -fp /infa/work/Weblogs/Weblogs_LAB_Artifacts/ACME_Weblogs_syslog2kafka.vds -df ACME_Weblogs_Syslog_Kafka
+
+
+hbase(main):002:0> scan "WebLogs"
+ROW                                               COLUMN+CELL
+ 2017-07-13T06:49:17.957638Z                      column=colFam:WL_JSON, timestamp=1499928567603, value={"accept_language":"en-us","cookies_accepted":"YES","date_time":"2017-07-13T06:49:17.9576
+                                                  38Z","domain":"acme.com","first_hit_time_gmt":"20150921121355","hit_time_gmt":2457287,"id":374,"index":2,"ip":"74.108.61.15","java_enabled":"YE
+                                                  S","last_hit_time_gmt":"20150929054306","latitude":"24.859832","login_id":"demarcus@burlage.com","longitude":"-168.021815","page_event":9,"page
+                                                  _url":"http://www.acme.com/products?product_id=72804;product_desc=HP inkc. No301 CH562EE Kleur","pagename":"main:product","paid_search":"NO","r
+                                                  eferrer":"W","registered":"2012-07-24","user_agent":"Google Chrome v42.0 WIN x64 8.1","user_srvr":"main","visit_num":33,"visit_page_num":21}
+ 2017-07-13T06:49:18.959018Z                      column=colFam:WL_JSON, timestamp=1499928567603, value={"accept_language":"en-us","cookies_accepted":"YES","date_time":"2017-07-13T06:49:18.9590
+                                                  18Z","domain":"acme.com","first_hit_time_gmt":"20150301200742","hit_time_gmt":2457083,"id":2343,"index":8,"ip":"216.148.185.222","java_enabled"
+                                                  :"YES","last_hit_time_gmt":"20150301200904","latitude":"39.994001","login_id":"joel@midyett.com","longitude":"-82.67652","page_event":7,"page_u
+                                                  rl":"http://www.acme.com/orders?orderid=2343&customerid=615&orderdate=0150301_20:09:00&product=71487","pagename":"main:item","paid_search":"NO"
+                                                  ,"referrer":"W","registered":"2011-11-13","user_agent":"Safari 7.2.0 MacOS X 10.10.3","user_srvr":"main","visit_num":39,"visit_page_num":29}
+ 2017-07-13T06:49:20.961488Z                      column=colFam:WL_JSON, timestamp=1499928567620, value={"accept_language":"en-us","cookies_accepted":"YES","date_time":"2017-07-13T06:49:20.9614
+                                                  88Z","domain":"acme.com","first_hit_time_gmt":"20150420221655","hit_time_gmt":2457133,"id":9466,"index":9,"ip":"227.197.82.220","java_enabled":
+                                                  "YES","last_hit_time_gmt":"20150420221652","latitude":"43.31773","login_id":"brian.kelk@yahoo.com","longitude":"-71.4534","page_event":6,"page_
+                                                  url":"http://www.acme.com/orders?orderid=9466&customerid=498&orderdate=0150420_22:17:00","pagename":"main:order","paid_search":"NO","referrer":
+                                                  "W","registered":"2013-12-05","user_agent":"Safari 7.2.0 MacOS X 10.10.3","user_srvr":"main","visit_num":6,"visit_page_num":38}
+ 2017-07-13T06:49:21.962714Z                      column=colFam:WL_JSON, timestamp=1499928567620, value={"accept_language":"en-us","cookies_accepted":"YES","date_time":"2017-07-13T06:49:21.9627
+                                                  14Z","domain":"acme.com","first_hit_time_gmt":"20150504231810","hit_time_gmt":2457147,"id":4978,"index":2,"ip":"58.238.115.247","java_enabled":
+                                                  "YES","last_hit_time_gmt":"20150504231901","latitude":"39.10941","login_id":"alan@yahoo.com","longitude":"-84.46986","page_event":7,"page_url":
+                                                  "http://www.acme.com/orders?orderid=4978&customerid=683&orderdate=0150504_23:19:00&product=71034","pagename":"main:item","paid_search":"NO","re
+                                                  ferrer":"W","registered":"2011-04-03","user_agent":"Google Chrome v42.0 WIN x64 8.1","user_srvr":"main","visit_num":32,"visit_page_num":46}
+ 2017-07-13T06:49:22.963945Z                      column=colFam:WL_JSON, timestamp=1499928567620, value={"accept_language":"en-us","cookies_accepted":"YES","date_time":"2017-07-13T06:49:22.9639
+                                                  45Z","domain":"acme.com","first_hit_time_gmt":"20150626012752","hit_time_gmt":2457200,"id":7807,"index":7,"ip":"198.49.0.204","java_enabled":"Y
+                                                  ES","last_hit_time_gmt":"20150626012751","latitude":"24.859832","login_id":"demarcus@burlage.com","longitude":"-168.021815","page_event":6,"pag
+                                                  e_url":"http://www.acme.com/orders?orderid=7807&customerid=561&orderdate=0150626_01:28:00","pagename":"main:order","paid_search":"NO","referrer
+                                                  ":"W","registered":"2012-01-28","user_agent":"Safari 7.2.0 MacOS X 10.10.3","user_srvr":"main","visit_num":48,"visit_page_num":9}
+ 2017-07-13T06:49:23.965175Z                      column=colFam:WL_JSON, timestamp=1499928567620, value={"accept_language":"en-us","cookies_accepted":"YES","date_time":"2017-07-13T06:49:23.9651
+                                                  75Z","domain":"acme.com","first_hit_time_gmt":"20151017230244","hit_time_gmt":2457313,"id":3957,"index":8,"ip":"206.150.123.95","java_enabled":
+                                                  "YES","last_hit_time_gmt":"20150805033404","latitude":"32.84885","login_id":"lila@gmail.com","longitude":"-79.85773","page_event":15,"page_url"
+                                                  :"http://www.acme.com/returns?product_id=73425;reason=Wrong product ordered","pagename":"main:return","paid_search":"NO","referrer":"W","regist
+                                                  ered":"2011-03-31","user_agent":"Google Chrome v42.0 WIN x64 8.1","user_srvr":"suprt","visit_num":29,"visit_page_num":29}
+ 2017-07-13T06:49:24.966012Z                      column=colFam:WL_JSON, timestamp=1499928606491, value={"accept_language":"en-us","cookies_accepted":"YES","date_time":"2017-07-13T06:49:24.9660
+                                                  12Z","domain":"acme.com","first_hit_time_gmt":"20150710022854","hit_time_gmt":2457214,"id":7143,"index":7,"ip":"197.29.48.67","java_enabled":"Y
+                                                  ES","last_hit_time_gmt":"20150710023003","latitude":"40.183837","login_id":"lsetapen@yahoo.com","longitude":"-122.24074","page_event":7,"page_u
+                                                  rl":"http://www.acme.com/orders?orderid=7143&customerid=591&orderdate=0150710_02:30:00&product=73516","pagename":"main:item","paid_search":"NO"
+                                                  ,"referrer":"W","registered":"2014-12-27","user_agent":"Safari 7.2.0 MacOS X 10.10.3","user_srvr":"main","visit_num":8,"visit_page_num":5}
+ 2017-07-13T06:49:26.967515Z                      column=colFam:WL_JSON, timestamp=1499928606491, value={"accept_language":"en-us","cookies_accepted":"YES","date_time":"2017-07-13T06:49:26.9675
+                                                  15Z","domain":"acme.com","first_hit_time_gmt":"20150728033221","hit_time_gmt":2457232,"id":8554,"index":3,"ip":"87.155.159.163","java_enabled":
+                                                  "YES","last_hit_time_gmt":"20150728033300","latitude":"42.967684","login_id":"genaro@yahoo.com","longitude":"-71.44828","page_event":7,"page_ur
+                                                  l":"http://www.acme.com/orders?orderid=8554&customerid=935&orderdate=0150728_03:33:00&product=70396","pagename":"main:item","paid_search":"NO",
+                                                  "referrer":"W","registered":"2014-08-26","user_agent":"Google Chrome v42.0 WIN x64 8.1","user_srvr":"main","visit_num":1,"visit_page_num":30}
+												  
+												  
+												  
+hbase(main):004:0> scan "WebLogs_enriched"
+ROW                                               COLUMN+CELL
+ 2017-07-13T06:49:17.957638Z                      column=colFam:WL_JSON, timestamp=1499928597708, value={"page_url":"http://www.acme.com/products?product_id=72804;product_desc=HP inkc. No301 CH
+                                                  562EE Kleur","orderId":null,"latitude":"24.859832","registered":"2012-07-24","page_event":9,"productReview":null,"pageType":"info_requests","da
+                                                  te_time":"2017-07-13T06:49:17.957638Z","cookies_accepted":"YES","returnReason":null,"customerId":null,"accept_language":"en-us","id":374,"domai
+                                                  n":"acme.com","visit_num":33,"productDescription":"HP inkc. No301 CH562EE Kleur","user_agent":"Google Chrome v42.0 WIN x64 8.1","hit_time_gmt":
+                                                  2457287,"longitude":"-168.021815","pagename":"main:product","login_id":"demarcus@burlage.com","productId":"72804","ip":"74.108.61.15","last_hit
+                                                  _time_gmt":"20150929054306","paid_search":"NO","index":2,"receiveTime":null,"referrer":"W","user_srvr":"main","visit_page_num":21,"java_enabled
+                                                  ":"YES","first_hit_time_gmt":"20150921121355"}
+ 2017-07-13T06:49:18.959018Z                      column=colFam:WL_JSON, timestamp=1499928594047, value={"page_url":"http://www.acme.com/orders?orderid=2343&customerid=615&orderdate=0150301_20:
+                                                  09:00&product=71487","orderId":"2343","latitude":"39.994001","registered":"2011-11-13","page_event":7,"productReview":null,"pageType":"orders",
+                                                  "date_time":"2017-07-13T06:49:18.959018Z","cookies_accepted":"YES","returnReason":null,"customerId":"615","accept_language":"en-us","id":2343,"
+                                                  domain":"acme.com","visit_num":39,"productDescription":null,"user_agent":"Safari 7.2.0 MacOS X 10.10.3","hit_time_gmt":2457083,"longitude":"-82
+                                                  .67652","pagename":"main:item","login_id":"joel@midyett.com","productId":"71487","ip":"216.148.185.222","last_hit_time_gmt":"20150301200904","p
+                                                  aid_search":"NO","index":8,"receiveTime":null,"referrer":"W","user_srvr":"main","visit_page_num":29,"java_enabled":"YES","first_hit_time_gmt":"
+                                                  20150301200742"}
+ 2017-07-13T06:49:21.962714Z                      column=colFam:WL_JSON, timestamp=1499928594047, value={"page_url":"http://www.acme.com/orders?orderid=4978&customerid=683&orderdate=0150504_23:
+                                                  19:00&product=71034","orderId":"4978","latitude":"39.10941","registered":"2011-04-03","page_event":7,"productReview":null,"pageType":"orders","
+                                                  date_time":"2017-07-13T06:49:21.962714Z","cookies_accepted":"YES","returnReason":null,"customerId":"683","accept_language":"en-us","id":4978,"d
+                                                  omain":"acme.com","visit_num":32,"productDescription":null,"user_agent":"Google Chrome v42.0 WIN x64 8.1","hit_time_gmt":2457147,"longitude":"-
+                                                  84.46986","pagename":"main:item","login_id":"alan@yahoo.com","productId":"71034","ip":"58.238.115.247","last_hit_time_gmt":"20150504231901","pa
+                                                  id_search":"NO","index":2,"receiveTime":null,"referrer":"W","user_srvr":"main","visit_page_num":46,"java_enabled":"YES","first_hit_time_gmt":"2
+                                                  0150504231810"}
+ 2017-07-13T06:49:23.965175Z                      column=colFam:WL_JSON, timestamp=1499928598841, value={"page_url":"http://www.acme.com/returns?product_id=73425;reason=Wrong product ordered","
+                                                  orderId":null,"latitude":"32.84885","registered":"2011-03-31","page_event":15,"productReview":null,"pageType":"returns","date_time":"2017-07-13
+                                                  T06:49:23.965175Z","cookies_accepted":"YES","returnReason":"Wrong product ordered","customerId":null,"accept_language":"en-us","id":3957,"domai
+                                                  n":"acme.com","visit_num":29,"productDescription":null,"user_agent":"Google Chrome v42.0 WIN x64 8.1","hit_time_gmt":2457313,"longitude":"-79.8
+                                                  5773","pagename":"main:return","login_id":"lila@gmail.com","productId":"73425","ip":"206.150.123.95","last_hit_time_gmt":"20150805033404","paid
+                                                  _search":"NO","index":8,"receiveTime":null,"referrer":"W","user_srvr":"suprt","visit_page_num":29,"java_enabled":"YES","first_hit_time_gmt":"20
+                                                  151017230244"}
+ 2017-07-13T06:49:24.966012Z                      column=colFam:WL_JSON, timestamp=1499928611252, value={"page_url":"http://www.acme.com/orders?orderid=7143&customerid=591&orderdate=0150710_02:
+                                                  30:00&product=73516","orderId":"7143","latitude":"40.183837","registered":"2014-12-27","page_event":7,"productReview":null,"pageType":"orders",
+                                                  "date_time":"2017-07-13T06:49:24.966012Z","cookies_accepted":"YES","returnReason":null,"customerId":"591","accept_language":"en-us","id":7143,"
+                                                  domain":"acme.com","visit_num":8,"productDescription":null,"user_agent":"Safari 7.2.0 MacOS X 10.10.3","hit_time_gmt":2457214,"longitude":"-122
+                                                  .24074","pagename":"main:item","login_id":"lsetapen@yahoo.com","productId":"73516","ip":"197.29.48.67","last_hit_time_gmt":"20150710023003","pa
+                                                  id_search":"NO","index":7,"receiveTime":null,"referrer":"W","user_srvr":"main","visit_page_num":5,"java_enabled":"YES","first_hit_time_gmt":"20
+                                                  150710022854"}
+ 2017-07-13T06:49:26.967515Z                      column=colFam:WL_JSON, timestamp=1499928611252, value={"page_url":"http://www.acme.com/orders?orderid=8554&customerid=935&orderdate=0150728_03:
+                                                  33:00&product=70396","orderId":"8554","latitude":"42.967684","registered":"2014-08-26","page_event":7,"productReview":null,"pageType":"orders",
+                                                  "date_time":"2017-07-13T06:49:26.967515Z","cookies_accepted":"YES","returnReason":null,"customerId":"935","accept_language":"en-us","id":8554,"
+                                                  domain":"acme.com","visit_num":1,"productDescription":null,"user_agent":"Google Chrome v42.0 WIN x64 8.1","hit_time_gmt":2457232,"longitude":"-
+                                                  71.44828","pagename":"main:item","login_id":"genaro@yahoo.com","productId":"70396","ip":"87.155.159.163","last_hit_time_gmt":"20150728033300","
+                                                  paid_search":"NO","index":3,"receiveTime":null,"referrer":"W","user_srvr":"main","visit_page_num":30,"java_enabled":"YES","first_hit_time_gmt":
+                                                  "20150728033221"}
+ 2017-07-13T06:49:31.972788Z                      column=colFam:WL_JSON, timestamp=1499928616309, value={"page_url":"http://www.acme.com/returns?product_id=71880;reason=Wrong product ordered","
+                                                  orderId":null,"latitude":"43.791699","registered":"2011-01-13","page_event":15,"productReview":null,"pageType":"returns","date_time":"2017-07-1
+                                                  3T06:49:31.972788Z","cookies_accepted":"YES","returnReason":"Wrong product ordered","customerId":null,"accept_language":"en-us","id":1034,"doma
+                                                  in":"acme.com","visit_num":49,"productDescription":null,"user_agent":"Google Chrome v42.0 WIN x64 8.1","hit_time_gmt":2457199,"longitude":"-86.
+                                                  40276","pagename":"main:return","login_id":"tdarnold@hotmail.com","productId":"71880","ip":"200.37.144.251","last_hit_time_gmt":"20150414221608
+                                                  ","paid_search":"NO","index":7,"receiveTime":null,"referrer":"W","user_srvr":"suprt","visit_page_num":7,"java_enabled":"YES","first_hit_time_gm
+                                                  t":"20150625180448"}
+ 2017-07-13T06:49:32.974019Z                      column=colFam:WL_JSON, timestamp=1499928614500, value={"page_url":"http://www.acme.com/products?product_id=72429;product_desc=D-Link Wireless r
+                                                  outer DIR-657","orderId":null,"latitude":"46.208571","registered":"2012-11-22","page_event":9,"productReview":null,"pageType":"info_requests","
+                                                  date_time":"2017-07-13T06:49:32.974019Z","cookies_accepted":"YES","returnReason":null,"customerId":null,"accept_language":"en-us","id":948,"dom
+                                                  ain":"acme.com","visit_num":45,"productDescription":"D-Link Wireless router DIR-657","user_agent":"Google Chrome v42.0 WIN x64 8.1","hit_time_g
+                                                  mt":2457175,"longitude":"-119.74507","pagename":"main:product","login_id":"eshelledy@yahoo.com","productId":"72429","ip":"249.87.240.139","last
+                                                  _hit_time_gmt":"20150629012800","paid_search":"NO","index":9,"receiveTime":null,"referrer":"W","user_srvr":"main","visit_page_num":17,"java_ena
+                                                  bled":"YES","first_hit_time_gmt":"20150601012240"}
+ 2017-07-13T06:49:33.974681Z                      column=colFam:WL_JSON, timestamp=1499928611743, value={"page_url":"http://www.acme.com/orders?orderid=7836&customerid=608&orderdate=0150711_02:
+                                                  30:00&product=71761","orderId":"7836","latitude":"44.483756","registered":"2011-11-14","page_event":7,"productReview":null,"pageType":"orders",
+                                                  "date_time":"2017-07-13T06:49:33.974681Z","cookies_accepted":"YES","returnReason":null,"customerId":"608","accept_language":"en-us","id":7836,"
+                                                  domain":"acme.com","visit_num":5,"productDescription":null,"user_agent":"Internet Explorer 11.1.0.0.4 WIN x64 7 Pro","hit_time_gmt":2457215,"lo
+                                                  ngitude":"-71.54999","pagename":"main:item","login_id":"info@gabryszewski.com","productId":"71761","ip":"93.250.106.217","last_hit_time_gmt":"2
+                                                  0150711023001","paid_search":"NO","index":3,"receiveTime":null,"referrer":"W","user_srvr":"main","visit_page_num":49,"java_enabled":"YES","firs
+                                                  t_hit_time_gmt":"20150711022912"}
+ 2017-07-13T06:49:34.975341Z                      column=colFam:WL_JSON, timestamp=1499928613307, value={"page_url":"http://www.acme.com/orders?orderid=3483&customerid=255&orderdate=0151229_09:
+                                                  58:00&product=72838","orderId":"3483","latitude":"38.112419","registered":"2012-04-25","page_event":7,"productReview":null,"pageType":"orders",
+                                                  "date_time":"2017-07-13T06:49:34.975341Z","cookies_accepted":"YES","returnReason":null,"customerId":"255","accept_language":"en-us","id":3483,"
+                                                  domain":"acme.com","visit_num":38,"productDescription":null,"user_agent":"Safari 7.2.0 MacOS X 10.10.3","hit_time_gmt":2457386,"longitude":"-76
+                                                  .36964","pagename":"main:item","login_id":"rborzelleca@yahoo.com","productId":"72838","ip":"244.35.93.151","last_hit_time_gmt":"20151229095804"
+                                                  ,"paid_search":"NO","index":9,"receiveTime":null,"referrer":"W","user_srvr":"main","visit_page_num":7,"java_enabled":"YES","first_hit_time_gmt"
+                                                  :"20151229095633"}
+ 2017-07-13T06:49:38.979376Z                      column=colFam:WL_JSON, timestamp=1499928615238, value={"page_url":"http://www.acme.com/products?product_id=72983;product_desc=OCZ SSD Vertex 2
+                                                  2,5" 60GB OCZSSD2-2VTXE60G","orderId":null,"latitude":"38.769697","registered":"2014-05-02","page_event":9,"productReview":null,"pageType":"inf
+                                                  o_requests","date_time":"2017-07-13T06:49:38.979376Z","cookies_accepted":"YES","returnReason":null,"customerId":null,"accept_language":"en-us",
+                                                  "id":6561,"domain":"acme.com","visit_num":31,"productDescription":"OCZ SSD Vertex 2 2,5" 60GB OCZSSD2-2VTXE60G","user_agent":"Google Chrome v42
+                                                  .0 WIN x64 8.1","hit_time_gmt":2457058,"longitude":"-77.44915","pagename":"main:product","login_id":"carbotti@hotmail.com","productId":"72983",
+                                                  "ip":"242.244.53.115","last_hit_time_gmt":"20150304200909","paid_search":"NO","index":9,"receiveTime":null,"referrer":"W","user_srvr":"main","v
+                                                  isit_page_num":48,"java_enabled":"YES","first_hit_time_gmt":"20150204192920"}
+ 2017-07-13T06:49:39.980413Z                      column=colFam:WL_JSON, timestamp=1499928613554, value={"page_url":"http://www.acme.com/orders?orderid=7055&customerid=968&orderdate=0151230_09:
+                                                  58:00&product=73151","orderId":"7055","latitude":"36.746375","registered":"2014-04-10","page_event":7,"productReview":null,"pageType":"orders",
+                                                  "date_time":"2017-07-13T06:49:39.980413Z","cookies_accepted":"YES","returnReason":null,"customerId":"968","accept_language":"en-us","id":7055,"
+                                                  domain":"acme.com","visit_num":34,"productDescription":null,"user_agent":"Google Chrome v42.0 WIN x64 8.1","hit_time_gmt":2457387,"longitude":"
+                                                  -119.639658","pagename":"main:item","login_id":"mcarcopa@gmail.com","productId":"73151","ip":"33.161.187.213","last_hit_time_gmt":"201512300958
+                                                  03","paid_search":"NO","index":0,"receiveTime":null,"referrer":"W","user_srvr":"main","visit_page_num":31,"java_enabled":"YES","first_hit_time_
+                                                  gmt":"20151230095643"}
+ 2017-07-13T06:49:40.981333Z                      column=colFam:WL_JSON, timestamp=1499928613554, value={"page_url":"http://www.acme.com/orders?orderid=5513&customerid=139&orderdate=0150704_02:
+                                                  29:00&product=73079","orderId":"5513","latitude":"43.422397","registered":"2012-06-15","page_event":7,"productReview":null,"pageType":"orders",
+                                                  "date_time":"2017-07-13T06:49:40.981333Z","cookies_accepted":"YES","returnReason":null,"customerId":"139","accept_language":"en-us","id":5513,"
+                                                  domain":"acme.com","visit_num":8,"productDescription":null,"user_agent":"Internet Explorer 11.1.0.0.4 WIN x64 7 Pro","hit_time_gmt":2457208,"lo
+                                                  ngitude":"-84.60041","pagename":"main:item","login_id":"ben@nagler.com","productId":"73079","ip":"118.12.131.250","last_hit_time_gmt":"20150704
+                                                  022902","paid_search":"NO","index":4,"receiveTime":null,"referrer":"W","user_srvr":"main","visit_page_num":2,"java_enabled":"YES","first_hit_ti
+                                                  me_gmt":"20150704022803"}
+ 2017-07-13T06:49:41.982813Z                      column=colFam:WL_JSON, timestamp=1499928613554, value={"page_url":"http://www.acme.com/orders?orderid=6365&customerid=800&orderdate=0150410_22:
+                                                  16:00&product=71799","orderId":"6365","latitude":"39.368974","registered":"2011-06-25","page_event":7,"productReview":null,"pageType":"orders",
+                                                  "date_time":"2017-07-13T06:49:41.982813Z","cookies_accepted":"YES","returnReason":null,"customerId":"800","accept_language":"en-us","id":6365,"
+                                                  domain":"acme.com","visit_num":44,"productDescription":null,"user_agent":"Safari 7.2.0 MacOS X 10.10.3","hit_time_gmt":2457123,"longitude":"-76
+                                                  .66904","pagename":"main:item","login_id":"mvaningan@hotmail.com","productId":"71799","ip":"171.126.115.105","last_hit_time_gmt":"2015041022160
+                                                  3","paid_search":"NO","index":6,"receiveTime":null,"referrer":"W","user_srvr":"main","visit_page_num":24,"java_enabled":"YES","first_hit_time_g
+                                                  mt":"20150410221452"}
+
