@@ -1,0 +1,27 @@
+[
+  {
+    "_id": "WebLogsDEMO",
+    "_type": "dashboard",
+    "_source": {
+      "title": "geo_weblogs",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"483fe040-5cf8-11e7-9d0d-83c80c937121\",\"panelIndex\":14,\"row\":1,\"size_x\":5,\"size_y\":4,\"type\":\"visualization\"},{\"col\":6,\"id\":\"dcdef1f0-5ea6-11e7-9349-dd541a093513\",\"panelIndex\":15,\"row\":1,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"a4b016c0-5f77-11e7-a321-97658d162252\",\"panelIndex\":16,\"row\":5,\"size_x\":5,\"size_y\":4,\"type\":\"visualization\"},{\"col\":6,\"id\":\"652690f0-5f78-11e7-b607-dbcaad7b4dec\",\"panelIndex\":17,\"row\":4,\"size_x\":5,\"size_y\":4,\"type\":\"visualization\"},{\"col\":10,\"id\":\"db16de40-5f79-11e7-9775-639154057db9\",\"panelIndex\":18,\"row\":1,\"size_x\":3,\"size_y\":3,\"type\":\"visualization\"}]",
+      "optionsJSON": "{\"darkTheme\":true}",
+      "uiStateJSON": "{\"P-15\":{\"vis\":{\"defaultColors\":{\"0 - 1\":\"rgb(247,252,245)\",\"1 - 2\":\"rgb(199,233,192)\",\"2 - 3\":\"rgb(116,196,118)\",\"3 - 3\":\"rgb(35,139,69)\"}}}}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now",
+      "timeFrom": "now-30m",
+      "refreshInterval": {
+        "display": "10 seconds",
+        "pause": false,
+        "section": 1,
+        "value": 10000
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  }
+]

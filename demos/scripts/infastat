@@ -1,0 +1,72 @@
+#!/bin/bash 
+source /var/scripts/env.sh
+COL="\E[60G"
+GREEN="\E[1;32m"
+RED="\E[1;31m"
+
+MRS_SVC=MRS
+DIS_SVC=DIS
+MRS_MON_SVC=MRS_MON
+MAS_SVC=MAS
+ANALYST_SVC=Analyst
+MASS_INGEST_SVC=MassIngestion
+let i=0
+
+
+PROG[$i]="ISPTomcatBootstrap;INFA Domain"; let i=i+1
+PROG[$i]="AdministratorConsole;INFA Adminconsole"; let i=i+1
+PROG[$i]="ModelRepositoryService/${MRS_SVC}_jsf;Model Repository $MRS_SVC"; let i=i+1
+PROG[$i]="ModelRepositoryService/${MRS_MON_SVC}_jsf;Model Repository $MRS_MON_SVC"; let i=i+1
+PROG[$i]="DataIntegrationService/${DIS_SVC}_jsf;Data Integration Service $DIS_SVC"; let i=i+1
+PROG[$i]="MetadataAccessService;Metadata Access Service $MAS_SVC"; let i=i+1
+PROG[$i]="AnalystService;Analyst Service $ANALYST_SVC"; let i=i+1
+PROG[$i]="MassIngestion;Mass Ingestion Service $MASS_INGEST_SVC"; let i=i+1
+PROG[$i]="com.informatica.vds.BingeMain;EDS Node"; let i=i+1
+PROG[$i]="admind/bin/lbmrd;UM Resolver Daemon lbmrd"; let i=i+1
+PROG[$i]="com.informatica.messaging.admind.UMMonD;EDS Admin Daemon admind"; let i=i+1
+PROG[$i]="PwxCDCPublisher.sh;CDC Publisher"; let i=i+1
+PROG[$i]="dtllst;CDC Listener"; let i=i+1
+PROG[$i]="pwxccl;CDC Logger"; let i=i+1
+PROG[$i]="kafka.Kafka;Apache Kafka"; let i=i+1
+PROG[$i]="QuorumPeerMain;Zookeeper(s)"; let i=i+1
+PROG[$i]="SchemaRegistryMain;Schema Registry"; let i=i+1
+PROG[$i]="KafkaRestMain;Kafka Rest"; let i=i+1
+PROG[$i]="ConnectDistributed;Kafka Connect"; let i=i+1
+PROG[$i]="SupportedKafka;Confluent Kafka"; let i=i+1
+PROG[$i]="activemq.jar;ActiveMQ Server"; let i=i+1
+PROG[$i]="org.elasticsearch.bootstrap.Elasticsearch;Elasticsearch Server"; let i=i+1
+#PROG[$i]="bin/../src/cli;Kibana"; let i=i+1
+PROG[$i]="node.*kibana;Kibana"; let i=i+1
+#PROG[$i]="ContentManagementService;Content Management Service CMS"; let i=i+1
+#PROG[$i]="/MetadataManagerService/MM/;Metadata Manager Service MM"; let i=i+1
+#PROG[$i]="proc_timelineserver;Yarn Timelineserver"; let i=i+1
+#PROG[$i]="pmrepagent;PowerCenter Repository $PCREPO_SVC"; let i=i+1
+#PROG[$i]="pmserver;PowerCenter Integration Service $PCDIS_SVC"; let i=i+1
+#PROG[$i]="org.apache.zookeeper.server.quorum.QuorumPeerMain;EDS Zookeeper(CDH)"; let i=i+1
+# PROG[$i]="AnalystService/MRS_DIS_AS;Analyst Service MRS_DIS_AS"; let i=i+1
+# PROG[$i]="org.apache.zeppelin.server.ZeppelinServer;Zeppelin Daemon"; let i=i+1
+#PROG[$i]="/infa/vds/UMP/config/store_1.xm;VDS - Store1 (umestored)"; let i=i+1;
+#PROG[$i]="/infa/vds/UMP/config/store_2.xm;VDS - Store2 (umestored)"; let i=i+1;
+#PROG[$i]="/infa/vds/UMP/config/store_3.xm;VDS - Store3 (umestored)"; let i=i+1;
+
+
+for p in "${PROG[@]}"
+do
+	st=${p%;*}
+	dt=${p#*;}
+
+	#c=$(ps -ef | grep $st | grep -v grep | cut -b 9-15 | tr "\n" " " | sed -e 's/ \+/ /g;s/^ //;s/ $//')
+	c=$(ps -ef | grep $st | grep -v grep | awk '{print $2}'| tr "\n" " " | sed -e 's/ $//')
+
+	echo -n $dt
+	echo -en $COL
+	#if [ $c -gt 0 ]; then
+	if [ "$c" ]; then
+		echo -en $GREEN
+		echo "Started($c)"
+	else
+		echo -en $RED
+		echo "Stopped"
+	fi
+	tput sgr0
+done

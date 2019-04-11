@@ -1,0 +1,10 @@
+#!/bin/bash 
+
+BROKER=napslxcdh01:9092
+USAGE="Usage: $0 "
+
+SCRIPTDIR=$(cd $(dirname $0) && pwd -P)
+PYTHONDIR=$SCRIPTDIR/python
+
+cd $PYTHONDIR
+./kafkaListTopic.py -b $BROKER 

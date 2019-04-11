@@ -1,0 +1,117 @@
+{
+  "type" : "record",
+  "name" : "ivp000_IVP000",
+  "namespace" : "com.informatica.avro",
+  "doc" : "The Informatica Flat Change Data Capture Avro Schema (Version 1) for d8opwx.ivp000_IVP000. Created: 2017/10/31 14:59:54",
+  "fields" : [ {
+    "name" : "INFA_SEQUENCE",
+    "type" : [ "null", "string" ],
+    "doc" : "The Informatica assigned Sequence Number",
+    "default" : null
+  }, {
+    "name" : "DTL__CAPXACTION",
+    "type" : [ "null", "string" ],
+    "doc" : " Native Column Name=DTL__CAPXACTION. CDC DataType=CDC_VARCHAR. Prec=1. Scale=0. Native System=null. Native DataType=null. Position=5. Provider System=PowerExchange. Provider DataType=CHAR(1). isRowMetadata ",
+    "default" : null
+  }, {
+    "name" : "DTL__CAPXRESTART1",
+    "type" : [ "null", "string" ],
+    "doc" : " Native Column Name=DTL__CAPXRESTART1. CDC DataType=CDC_BINARY. Prec=255. Scale=0. Native System=null. Native DataType=null. Position=0. Provider System=PowerExchange. Provider DataType=VARBIN(255). isRowMetadata ",
+    "default" : null
+  }, {
+    "name" : "DTL__CAPXRESTART2",
+    "type" : [ "null", "string" ],
+    "doc" : " Native Column Name=DTL__CAPXRESTART2. CDC DataType=CDC_BINARY. Prec=255. Scale=0. Native System=null. Native DataType=null. Position=1. Provider System=PowerExchange. Provider DataType=VARBIN(255). isRowMetadata ",
+    "default" : null
+  }, {
+    "name" : "DTL__CAPXROWID",
+    "type" : [ "null", "string" ],
+    "doc" : " Native Column Name=DTL__CAPXROWID. CDC DataType=CDC_VARCHAR. Prec=18. Scale=0. Native System=null. Native DataType=null. Position=6. Provider System=PowerExchange. Provider DataType=CHAR(18). isRowMetadata ",
+    "default" : null
+  }, {
+    "name" : "DTL__CAPXTIMESTAMP",
+    "type" : [ "null", "string" ],
+    "doc" : " Native Column Name=DTL__CAPXTIMESTAMP. CDC DataType=CDC_TIMESTAMP. Prec=0. Scale=0. Native System=null. Native DataType=null. Position=4. Provider System=PowerExchange. Provider DataType=CHAR(20). isRowMetadata ",
+    "default" : null
+  }, {
+    "name" : "DTL__CAPXUOW",
+    "type" : [ "null", "string" ],
+    "doc" : " Native Column Name=DTL__CAPXUOW. CDC DataType=CDC_BINARY. Prec=255. Scale=0. Native System=null. Native DataType=null. Position=2. Provider System=PowerExchange. Provider DataType=VARBIN(255). isRowMetadata ",
+    "default" : null
+  }, {
+    "name" : "DTL__CAPXUSER",
+    "type" : [ "null", "string" ],
+    "doc" : " Native Column Name=DTL__CAPXUSER. CDC DataType=CDC_VARCHAR. Prec=255. Scale=0. Native System=null. Native DataType=null. Position=3. Provider System=PowerExchange. Provider DataType=VARCHAR(255). isRowMetadata ",
+    "default" : null
+  }, {
+    "name" : "INFA_OP_TYPE",
+    "type" : [ "null", "string" ],
+    "doc" : "The source operation type (insert, update or delete)",
+    "default" : null
+  }, {
+    "name" : "INFA_TABLE_NAME",
+    "type" : [ "null", "string" ],
+    "doc" : "The source table name",
+    "default" : null
+  }, {
+    "name" : "DTA1",
+    "type" : [ "null", "string" ],
+    "doc" : " Native Column Name=DTA1. CDC DataType=CDC_VARCHAR. Prec=300. Scale=0. Native System=null. Native DataType=null. Position=8. Provider System=PowerExchange. Provider DataType=VARCHAR(100).",
+    "default" : null
+  }, {
+    "name" : "DTA1_Present",
+    "type" : "boolean",
+    "doc" : "Contains true when the value of field DTA1 is present in the change data stream from the source system.  False when no value was provided in the stream for the field.",
+    "default" : false
+  }, {
+    "name" : "DTA1_BeforeImage",
+    "type" : [ "null", "string" ],
+    "doc" : "Contains the before image of field DTA1 when the source table operation was an update.  Null otherwise.",
+    "default" : null
+  }, {
+    "name" : "DTA1_BeforeImage_Present",
+    "type" : "boolean",
+    "doc" : "Contains true when the value of field DTA1_BeforeImage is present in the change data stream from the source system.  False when no value was provided in the stream for the field.",
+    "default" : false
+  }, {
+    "name" : "DTA2",
+    "type" : [ "null", "string" ],
+    "doc" : " Native Column Name=DTA2. CDC DataType=CDC_DECIMAL. Prec=10. Scale=0. Native System=null. Native DataType=null. Position=9. Provider System=PowerExchange. Provider DataType=NUM32(,0).",
+    "default" : null
+  }, {
+    "name" : "DTA2_Present",
+    "type" : "boolean",
+    "doc" : "Contains true when the value of field DTA2 is present in the change data stream from the source system.  False when no value was provided in the stream for the field.",
+    "default" : false
+  }, {
+    "name" : "DTA2_BeforeImage",
+    "type" : [ "null", "string" ],
+    "doc" : "Contains the before image of field DTA2 when the source table operation was an update.  Null otherwise.",
+    "default" : null
+  }, {
+    "name" : "DTA2_BeforeImage_Present",
+    "type" : "boolean",
+    "doc" : "Contains true when the value of field DTA2_BeforeImage is present in the change data stream from the source system.  False when no value was provided in the stream for the field.",
+    "default" : false
+  }, {
+    "name" : "KEY_ID",
+    "type" : [ "null", "string" ],
+    "doc" : " Native Column Name=KEY_ID. CDC DataType=CDC_VARCHAR. Prec=65. Scale=0. Native System=null. Native DataType=null. Position=7. Provider System=PowerExchange. Provider DataType=DOUBLE.",
+    "default" : null
+  }, {
+    "name" : "KEY_ID_Present",
+    "type" : "boolean",
+    "doc" : "Contains true when the value of field KEY_ID is present in the change data stream from the source system.  False when no value was provided in the stream for the field.",
+    "default" : false
+  }, {
+    "name" : "KEY_ID_BeforeImage",
+    "type" : [ "null", "string" ],
+    "doc" : "Contains the before image of field KEY_ID when the source table operation was an update.  Null otherwise.",
+    "default" : null
+  }, {
+    "name" : "KEY_ID_BeforeImage_Present",
+    "type" : "boolean",
+    "doc" : "Contains true when the value of field KEY_ID_BeforeImage is present in the change data stream from the source system.  False when no value was provided in the stream for the field.",
+    "default" : false
+  } ]
+}

@@ -1,0 +1,8 @@
+#!/bin/bash
+id=`id -n -u`;
+
+if [ "$id" != "infa" ]; then
+    echo Script has to be run as user infa >&2;
+    exit 1;
+fi
+exit 0

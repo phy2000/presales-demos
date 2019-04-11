@@ -1,0 +1,24 @@
+#!/bin/bash
+LOGDIR=/tmp/cdcdemo/logs
+SCRIPTDIR=$(cd $(dirname $0) && pwd -P)
+cd $SCRIPTDIR
+
+mkdir -p $LOGDIR
+
+# Start monitor process
+echo START AT $(date) >> $LOGDIR/monitor.out
+nohup $SCRIPTDIR/cdc_monitor.sh 2>&1 >> $LOGDIR/monitor.out &
+echo $! >> $LOGDIR/monitor.pid
+
+# Start database changes 
+echo START AT $(date) >> $LOGDIR/cdctest.out
+nohup $SCRIPTDIR/cdctest.sh $1 2>&1 >> $LOGDIR/cdctest.out &
+echo $! >> $LOGDIR/cdctest.pid
+
+# Start INFA workflow application
+echo START AT $(date) >> $LOGDIR/cdcapp.out
+nohup sudo -u infa /var/scripts/iis/cdcapp.sh 2>&1 >> $LOGDIR/cdcapp.out &
+sleep 2
+pgrep cdcapp.sh >> $LOGDIR/cdcapp.pid
+
+tail -f $LOGDIR/*.out

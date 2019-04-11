@@ -1,0 +1,17 @@
+start at Mon Nov 6 06:01:05 CST 2017
+/opt/infa/PLATFORM/isp/bin/infacmd.sh: line 130: cd: /home/pyoung/DEMOS/CDC: Not a directory
+Started workflow [wf_CDC_Demo] with instance ID [LQoSS8LqEeewQuPCoIczlA].
+finish at Mon Nov 6 06:01:09 CST 2017
+start at Mon Nov 6 06:03:05 CST 2017
+/opt/infa/PLATFORM/isp/bin/infacmd.sh: line 130: cd: /home/pyoung/DEMOS/CDC: Not a directory
+Started workflow [wf_CDC_Demo] with instance ID [dAhb6start at Mon Nov 6 06:04:08 CST 2017
+/var/scripts/iis/runastart at Mon Nov 6 06:05:05 CST 2017
+/opt/infa/PLATFORM/isp/bin/infacmd.sh: line 130start at Mon Nov 6 06:06:08 CST 2017
+/var/scripts/iis/runapp.sh: line 18: infacmd.sh: command not found
+finish at Mon Nov 6 06:06:08 CST 2017
+:05:08 CST 2017
+/var/scripts/iis/runapp.sh: line 23: 12422 Terminated              sleep $sleeptime
+start at Mon Nov 6 06:07:01 CST 2017
+/opt/infa/PLATFORM/isp/bin/infacmd.sh: line 130: cd: /home/pyoung/DEMOS/CDC: Not a directory
+Started workflow [wf_CDC_Demo] with instance ID [ARIptMLrEeewQuPCoIczlA].
+finish at Mon Nov 6 06:07:05 CST 2017

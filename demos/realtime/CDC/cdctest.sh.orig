@@ -1,0 +1,15 @@
+#!/bin/bash
+    i=0;
+    while [ $i -lt ${1:-100} ]; do
+        echo -n $i.
+        let i=i+1;
+        let j=2*i;
+        ts=`date "+%d-%b-%Y %r"`;
+        mykey="$ts-$i";
+        echo "insert into cdctest ( mykey, cnt, TS, n17p3, nvc) values ('$mykey', $i,  '$ts',$i,'$i'); " | sqlplus cdctest/cdctest@INFORMATICA > /dev/null
+        ( sleep 4;
+        echo "update cdctest set n17p3 = '$j', ts = '`date "+%d-%b-%Y %r"`' where mykey = '$mykey'; " | sqlplus cdctest/cdctest@INFORMATICA ) > /dev/null & sleep 1;
+        ( sleep 10;
+        echo "delete from cdctest where mykey = '$mykey'; " | sqlplus cdctest/cdctest@INFORMATICA ) > /dev/null & sleep 1;
+    done
+    echo

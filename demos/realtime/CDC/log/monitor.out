@@ -1,0 +1,8 @@
+topic=cdctest_info; broker=napslxcdh01:9092
+Exception ignored in: <bound method ConsumerCoordinator.__del__ of <kafka.coordinator.consumer.ConsumerCoordinator object at 0x7f3c70bcc978>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.4/site-packages/kafka/coordinator/consumer.py", line 116, in __del__
+  File "/usr/lib/python3.4/site-packages/kafka/util.py", line 139, in __init__
+TypeError: 'NoneType' object is not callable
+index=cdctest_cdctest_info; elasticserver=localhost:9200; doc_type=cdctest_info
+EOF - please wait...

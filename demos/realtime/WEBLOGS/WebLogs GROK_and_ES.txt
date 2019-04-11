@@ -1,0 +1,111 @@
+5373 9 2457002 en-us 234.137.59.235 2014-12-10 16:00:14 9 “http://www.acme.com/products?product_id=72267;product_desc=Haiqoe kabeltester RTC10" main:product main W "Google Chrome v42.0 WIN x64 8.1” acme.com YES YES NO 20150106180008 20141210155757 41 27 info@ophoven.com  2014-09-02 44.030204 -75.81845
+
+%{DATA:_ID} +%{DATA:index} +%{DATA:hit_time_gmt} +%{DATA:accept_language} %{IP:ip} %{TIMESTAMP_ISO8601:date_time} +%{DATA:page_event} "%{DATA:request}"
+
+
+
+FINAL:
+
+2017-06-28T11:29:58.687000Z 5373 234.137.59.235(-75.81845,44.030204) (info@ophoven.com)(2014-09-02)[Google Chrome v42.0 WIN x64 8.1] (main)acme.com[main:product] 41(W) 27 20141210155757-20150106180008 Java:YES,Paid=NO "http://www.acme.com/products?product_id=72267;product_desc=Haiqoe kabeltester RTC10"(9)9 [alang=en-us,cookies=YES]2457002
+
+%{DATA:date_time} %{INT:id} %{DATA:ip}\(%{BASE10NUM:longitude},%{BASE10NUM:latitude}\) \(%{DATA:login_id}\)\(%{DATA:registered}\)\[%{DATA:user_agent}\] \(%{DATA:user_srvr}\)%{DATA:domain}\[%{DATA:pagename}\] %{DATA:visit_num}\(%{DATA:referrer}\) %{INT:visit_page_num} %{DATA:first_hit_time_gmt}-%{DATA:last_hit_time_gmt} Java:%{DATA:java_enabled},Paid=%{DATA:paid_search} \"%{DATA:page_url}\"\(%{DATA:page_event}\)%{DATA:index} \[alang=%{DATA:accept_language},cookies=%{DATA:cookies_accepted}\]%{GREEDYDATA:hit_time_gmt}
+
+{"domain": "acme.com", "accept_language": "en-us", "hit_time_gmt": 2457009, "ip": "214.118.133.148", "first_hit_time_gmt": "20141217144952", "id": 8477, "last_hit_time_gmt": "20150110180104", "index": 8, "visit_page_num": 23, "cookies_accepted": "YES", "java_enabled": "YES", "latitude": "42.901162", "visit_num": 37, "login_id": "minanda@gmail.com", "registered": "2014-10-21", "paid_search": "NO", "page_event": 9, "pagename": "main:product", "date_time": "2017-06-28T16:14:19.681004Z", "user_srvr": "main", "referrer": "W", "longitude": "-77.54848", "user_agent": "Google Chrome v42.0 WIN x64 8.1", "page_url": "http://www.acme.com/products?product_id=71157;product_desc=Razer Ironclad Elite Hard Gaming Mouse Mat"}
+
+
+==== ELASTIC SEARCH (IIS INDEXING AFTER EXPRESSION) ===
+CREATE mapping for INDEX <geo_weblogs> and TYPE <log_entry>...
+{"acknowledged":true,"shards_acknowledged":true}
+
+Displaying created index...
+{
+  "geo_weblogs" : {
+    "mappings" : {
+      "log_entry" : {
+        "properties" : {
+          "PageType" : {
+            "type" : "keyword"
+          },
+          "accept_language" : {
+            "type" : "keyword"
+          },
+          "cookies_accepted" : {
+            "type" : "keyword"
+          },
+          "date_time" : {
+            "type" : "date",
+            "format" : "yyyy-MM-dd'T'HH:mm:ss.SSSSSSZ"
+          },
+          "domain" : {
+            "type" : "keyword"
+          },
+          "first_hit_time_gmt" : {
+            "type" : "text"
+          },
+          "hit_time_gmt" : {
+            "type" : "integer"
+          },
+          "id" : {
+            "type" : "keyword"
+          },
+          "index" : {
+            "type" : "keyword"
+          },
+          "ip" : {
+            "type" : "keyword"
+          },
+          "java_enabled" : {
+            "type" : "text"
+          },
+          "last_hit_time_gmt" : {
+            "type" : "text"
+          },
+          "latitude" : {
+            "type" : "text"
+          },
+          "login_id" : {
+            "type" : "keyword"
+          },
+          "longitude" : {
+            "type" : "text"
+          },
+          "page_event" : {
+            "type" : "keyword"
+          },
+          "page_url" : {
+            "type" : "keyword"
+          },
+          "pagename" : {
+            "type" : "keyword"
+          },
+          "paid_search" : {
+            "type" : "keyword"
+          },
+          "receiveTime" : {
+            "type" : "keyword"
+          },
+          "referrer" : {
+            "type" : "text"
+          },
+          "registered" : {
+            "type" : "text"
+          },
+          "user_agent" : {
+            "type" : "keyword"
+          },
+          "user_srvr" : {
+            "type" : "keyword"
+          },
+          "visit_num" : {
+            "type" : "text"
+          },
+          "visit_page_num" : {
+            "type" : "integer"
+          }
+        }
+      }
+    }
+  }
+}
+
+

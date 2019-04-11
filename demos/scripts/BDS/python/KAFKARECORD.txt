@@ -1,0 +1,32 @@
+This is a kafka record/replay utility.
+It requires python3 and the kafka-python library
+To install these:
+On Centos/RH 6.x: 
+    sudo yum --enablerepo=epel install python34 python34-setuptools
+    sudo easy_install-3.4 pip
+On Centos/RH 7.x:
+    sudo yum install python34 python34-pip 
+    sudo pip3 install kafka
+
+----------------------------------------------------------------------------------------
+Usage: recordKafka.py -t TOPIC -d DIR-TO-SAVE -b HOST:PORT [-v] 
+
+Options:
+  -h, --help  show this help message and exit
+  -t TOPIC    kafka topic to listen
+  -d DIR      (empty) destination directory to save messages
+  -b BROKER   kafka broker in <host>:<port> format
+  -v          verbosity
+
+----------------------------------------------------------------------------------------
+Usage: replayKafka.py -t TOPIC -d DIR-TO-READ -b HOST:PORT [-w SECS] [-l SECS] [-v] 
+
+Options:
+  -h, --help  show this help message and exit
+  -t TOPIC    kafka topic to send
+  -d DIR      source directory for saved messages
+  -b BROKER   kafka broker in <host>:<port> format
+  -w WAIT     Wait seconds before sending (5)
+  -l LINGER   linger seconds after sending (5)
+  -v          verbosity
+

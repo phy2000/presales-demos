@@ -1,0 +1,15 @@
+#!/bin/bash 
+
+export KAFKA_HOME=/opt/kafka/current
+
+USAGE="Usage: $0 <kafkatopic>"
+
+if [ $# -lt 1 ] ; then
+	echo $USAGE >&2
+	exit -1
+fi
+
+TOPIC=$1
+shift
+echo $KAFKA_HOME/bin/kafka-console-producer.sh --broker-list quickstart:9192 --topic $TOPIC $*
+$KAFKA_HOME/bin/kafka-console-producer.sh --broker-list quickstart:9192 --topic $TOPIC $*

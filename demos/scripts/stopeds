@@ -1,0 +1,8 @@
+#/bin/bash
+source /var/scripts/env.sh
+if [ -z "$INFA_HOME" ] ;then
+	export INFA_HOME=/opt/infa/current
+fi
+cd $INFA_HOME
+admind/bin/admin.sh stop
+node/bin/node.sh stop quickstart

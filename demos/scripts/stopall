@@ -1,0 +1,15 @@
+#/bin/bash
+source /var/scripts/env.sh
+if [ -z "$INFA_HOME" ] ;then
+	export INFA_HOME=/opt/infa/current
+fi
+/var/scripts/stopeds
+sudo service kibana stop
+sudo service elasticsearch stop
+sudo service activemq stop
+cd /var/scripts/cdc
+./stopcdcall
+#/var/scripts/iis/stopkafka
+$CONFLUENT_HOME/bin/confluent stop
+cd $INFA_HOME/tomcat/bin
+./infaservice.sh shutdown

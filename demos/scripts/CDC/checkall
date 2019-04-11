@@ -1,0 +1,18 @@
+#!/bin/bash
+if [ -z "$PWX_HOME" ] ; then
+echo PWX_HOME is not set - exiting >&2
+exit
+fi
+THISDIR=$(dirname $0)
+
+echo
+echo '>>>>>>>>>>>>>>>>>>>>>>>>>>> ' $THISDIR '<<<<<<<<<<<<<<<<<<<<<<<<'
+find $THISDIR -name '*.out' | xargs tail -n 3
+echo
+echo
+echo '>>>>>>>>>>>>>>>>>>>>>>>>>>> ' $PWX_HOME '<<<<<<<<<<<<<<<<<<<<<<<<'
+find $PWX_HOME -name '*.out' -o -name '*.log' | xargs tail -n 3
+echo
+echo
+echo '>>>>>>>>>>>>>>>>>>>>>>>>>>> ' $PWXPUB_HOME '<<<<<<<<<<<<<<<<<<<<<<<<'
+find $PWXPUB_HOME -name '*.out' -o -name '*.log' | xargs tail -n 3

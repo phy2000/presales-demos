@@ -1,0 +1,448 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJJ0wGY2amD4gRyHxwJdDY7zw",
+         "types" : [ "street_address" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJdT_Od9_4DogRaH4ax4PDxfc",
+         "types" : [ "route" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 42.0948721,
+               "lng" : -88.0235285
+            },
+            "southwest" : {
+               "lat" : 41.8042731,
+               "lng" : -88.20662700000001
+            }
+         },
+         "copyrights" : "Map data ©2017 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "33.1 mi",
+                  "value" : 53253
+               },
+               "duration" : {
+                  "text" : "38 mins",
+                  "value" : 2284
+               },
+               "duration_in_traffic" : {
+                  "text" : "35 mins",
+                  "value" : 2121
+               },
+               "end_address" : "Celebration Dr, Naperville, IL 60563, USA",
+               "end_location" : {
+                  "lat" : 41.8086612,
+                  "lng" : -88.2062964
+               },
+               "start_address" : "3921 N Firestone Ln, Hoffman Estates, IL 60192, USA",
+               "start_location" : {
+                  "lat" : 42.0948721,
+                  "lng" : -88.1055647
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "213 ft",
+                        "value" : 65
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 17
+                     },
+                     "end_location" : {
+                        "lat" : 42.0948702,
+                        "lng" : -88.1063578
+                     },
+                     "html_instructions" : "Head \u003cb\u003ewest\u003c/b\u003e on \u003cb\u003eN Firestone Ln\u003c/b\u003e toward \u003cb\u003eN Firestone Dr\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "}s|_GvbwxO?~C"
+                     },
+                     "start_location" : {
+                        "lat" : 42.0948721,
+                        "lng" : -88.1055647
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 mi",
+                        "value" : 546
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 69
+                     },
+                     "end_location" : {
+                        "lat" : 42.0907601,
+                        "lng" : -88.1033181
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eN Firestone Dr\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "}s|_GvgwxOhEAx@Ih@WZQ^[^a@Xa@PWX]\\c@fAaApDmDb@w@h@gA"
+                     },
+                     "start_location" : {
+                        "lat" : 42.0948702,
+                        "lng" : -88.1063578
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 mi",
+                        "value" : 406
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 64
+                     },
+                     "end_location" : {
+                        "lat" : 42.0875228,
+                        "lng" : -88.10512249999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eLexington Dr\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "gz{_GvtvxO|B`CdCnCj@Zh@NZHZDz@A~AIxAd@"
+                     },
+                     "start_location" : {
+                        "lat" : 42.0907601,
+                        "lng" : -88.1033181
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.5 mi",
+                        "value" : 2469
+                     },
+                     "duration" : {
+                        "text" : "3 mins",
+                        "value" : 175
+                     },
+                     "end_location" : {
+                        "lat" : 42.0788874,
+                        "lng" : -88.07799369999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eIL-62 E\u003c/b\u003e/\u003cb\u003eW Algonquin Rd\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "_f{_G~_wxOTHrEy\\r@}ED[bBeMh@uDnBmNp@{EBSpAkJJu@D]DWZiBTyAHe@b@yBVkAl@mChAoEZiAPk@J]v@iCb@oAZ_A^oAnAaDbB}DdBwDl@mA\\u@n@qAt@gBb@iAXw@f@wAFY"
+                     },
+                     "start_location" : {
+                        "lat" : 42.0875228,
+                        "lng" : -88.10512249999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.1 mi",
+                        "value" : 1738
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 139
+                     },
+                     "end_location" : {
+                        "lat" : 42.0634242,
+                        "lng" : -88.07948259999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eRoselle Rd\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "apy_GlvqxOdA@`FAt@?~DAlJ?pA@|D?xA?nA?pC?~L@`AAj@BXBh@HTDTDh@Pd@Rb@R@@tAn@THj@Xj@LhAb@jA\\^DnADrAHR?N@^DbCDbAF"
+                     },
+                     "start_location" : {
+                        "lat" : 42.0788874,
+                        "lng" : -88.07799369999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.7 mi",
+                        "value" : 2803
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 145
+                     },
+                     "end_location" : {
+                        "lat" : 42.0595818,
+                        "lng" : -88.04604139999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e to merge onto \u003cb\u003eI-90 E\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePartial toll road\u003c/div\u003e",
+                     "polyline" : {
+                        "points" : "kov_Gv_rxORWJQJ_AFeFAiBCw@?k@A[@c@?_@@c@DaABe@JwAFaAHkADu@FcA@ELuBPcDJsAD{@@O@K?G?G?C?E?CAC?EC]NqCVcEJwA^iG`@eHf@gIZaFl@_JpA}S\\cGPgD\\uFXgEVaEXsERwCJ}ANiCRkDNyBFgABW@OJuAN}BTsD"
+                     },
+                     "start_location" : {
+                        "lat" : 42.0634242,
+                        "lng" : -88.07948259999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.5 mi",
+                        "value" : 820
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 32
+                     },
+                     "end_location" : {
+                        "lat" : 42.0582748,
+                        "lng" : -88.03627849999999
+                     },
+                     "html_instructions" : "Take the \u003cb\u003eIL-53\u003c/b\u003e exit toward \u003cb\u003eI-290\u003c/b\u003e/\u003cb\u003eChicago-West Suburbs\u003c/b\u003e/\u003cb\u003eNW Suburbs\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eToll road\u003c/div\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "kwu_GvnkxOHWBK@KBI@IBWp@cKb@{Gl@uJt@eLTaEB[HqADq@Fe@"
+                     },
+                     "start_location" : {
+                        "lat" : 42.0595818,
+                        "lng" : -88.04604139999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.8 mi",
+                        "value" : 1304
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 78
+                     },
+                     "end_location" : {
+                        "lat" : 42.0495654,
+                        "lng" : -88.0295333
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eright\u003c/b\u003e at the fork, follow signs for \u003cb\u003eI-290 E\u003c/b\u003e/\u003cb\u003eIL-53 S\u003c/b\u003e/\u003cb\u003eChicago\u003c/b\u003e/\u003cb\u003eW Suburbs\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePartial toll road\u003c/div\u003e",
+                     "maneuver" : "fork-right",
+                     "polyline" : {
+                        "points" : "eou_GvqixOFQ@E@G@I@IF_AHu@Fq@Hq@Hk@DYDY?CBQNu@Ps@DMDKXk@FOVg@b@{@BEl@kAd@}@b@o@Xc@LSDEZc@Zc@Xc@FIHO@ADKN]JUl@aBNa@JYFQFIDIPYNQJKNMNKLETKFCJCLCRCLAJ?T?R?D?DADABCHIjCHf@@`@BZ@|@DpAHH@n@DzALv@Hb@D`AJnANf@Fd@F"
+                     },
+                     "start_location" : {
+                        "lat" : 42.0582748,
+                        "lng" : -88.03627849999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "5.5 mi",
+                        "value" : 8849
+                     },
+                     "duration" : {
+                        "text" : "5 mins",
+                        "value" : 300
+                     },
+                     "end_location" : {
+                        "lat" : 41.97074360000001,
+                        "lng" : -88.0251581
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e, follow signs for \u003cb\u003eIL-72\u003c/b\u003e/\u003cb\u003eHiggins Rd\u003c/b\u003e and merge onto \u003cb\u003eI-290 E\u003c/b\u003e/\u003cb\u003eIL-53 S\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eContinue to follow I-290 E\u003c/div\u003e",
+                     "maneuver" : "keep-left",
+                     "polyline" : {
+                        "points" : "yxs_GpghxOjANTBhD`@lBRdBPpANbBPvD^tCXh@FH@DAFAFAJGjDb@z@HF@P@LBR@zAPn@FnAHhAH~@DdADpCH~DBvB?zA?dAAbB?T?H?nB@|D?vD?bE@vH@fB@xE@zCBxj@TbD@fE?hA?zACbACZ?bBG`AG|@ErBOl@EjAK`BQbAKzAS~AWtASdB]tAY~Dy@pDw@pEaAtDy@dAUnAYt@QnE_AdFgAzBe@zDy@jH}AbAUB?RGB?rFmAjIgBlFkA`Ds@`Dq@t@QlDu@pA[~A[~AYp@M`BUpAQlAOfBQd@EZEJAH?p@A|@KfEYr@AdBEh@CX?bAAv@AtA?xB?zH@fA@zA@l@?J?^?lE@jB?nI@r@?h@@hDBpABjAB|AD`CJnAHL@~@FjAJtAN`CVjAJnBRvC\\tEd@tD`@hGn@`AHrBT"
+                     },
+                     "start_location" : {
+                        "lat" : 42.0495654,
+                        "lng" : -88.0295333
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "9.5 mi",
+                        "value" : 15219
+                     },
+                     "duration" : {
+                        "text" : "9 mins",
+                        "value" : 522
+                     },
+                     "end_location" : {
+                        "lat" : 41.84199,
+                        "lng" : -88.02932059999999
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e at the fork to continue on \u003cb\u003eI-355 S\u003c/b\u003e, follow signs for \u003cb\u003eInterstate 355 S\u003c/b\u003e/\u003cb\u003eJoliet\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePartial toll road\u003c/div\u003e",
+                     "maneuver" : "fork-left",
+                     "polyline" : {
+                        "points" : "cld_GflgxOLCH?T@h@FfALpALbCTlBPjBPzALrALv@Fp@FdAFbAHp@DhHZvF\\jADhETbDNJ@|@Df@DfAL^Fl@JPDZHx@Tv@Vb@NVJh@Th@Vh@XXPt@d@d@\\b@Zd@`@b@`@b@b@PPr@v@^f@p@|@l@|@NXfAdBh@x@|CdFr@jAr@nAd@t@vA|Bd@t@lAnBPXZb@j@t@Z`@RTv@x@^^n@j@XTTPf@\\RNXR`Ah@b@TLHZLLFLFh@RXJ`@LhBf@hARvAP|@HxAF~D@~A@X?rC?jNHnYD|CBlN?pD?xG?pE?pHHpKHtp@NtA?rA?fBBpB?jF?xEBxJDbJDpD@vEBfUFxKC|GI~W[jAAj@AzIKrHI~EI~BET?dACvEGbAAz@Ah@A^A^A\\CZCt@K|@Mh@MB?\\Id@M`@M^MZIZOZMd@S|Aw@lBeAn@_@xAw@tAw@lAo@bDiBf@YTMHEHGZQ`@UlAm@d@SpAi@n@U~@Yd@KZKh@KJE|@QPCp@Kv@IlAKd@CTApAEd@?b@?Z?`@@x@Bx@Dx@Hl@Fd@Fd@F\\Fd@Jb@H|@Tb@J^Lf@Nf@Rh@Pf@Tr@Zp@\\j@\\t@d@tAz@nD`Cf@\\f@\\x@h@`Al@j@\\lAt@nC|A^R`Af@x@b@bAh@hAj@vCtAt@ZrAj@jAf@bA`@z@\\`A\\t@V|@ZTHf@RHBB@l@RbAZj@RtA^pA^lAZjAZrA\\nAXhB^d@Ht@LhANz@Hn@FX@ZB\\@b@@P@r@?\\@dAA`AEt@E^Cl@Ej@I`@Eb@Gf@Ij@Kn@Mh@Mr@S|@Y^MZKhAe@hAg@|@c@^UhBiATQXQXU|AoAf@c@f@i@d@c@\\a@h@m@v@aAbAsAd@s@R[^m@Ta@b@u@Xk@?APYXm@Vm@d@gAz@wBd@oAh@sAZu@b@cAVi@R_@Xi@^m@\\g@\\e@^g@`@g@`@c@j@i@n@k@`As@`@Wb@[`@SBCf@U`@Q`@Qj@St@Ux@Q^Ij@KPCRCn@Gp@Ev@Cj@AfBErAChBA"
+                     },
+                     "start_location" : {
+                        "lat" : 41.97074360000001,
+                        "lng" : -88.0251581
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.2 mi",
+                        "value" : 1951
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 73
+                     },
+                     "end_location" : {
+                        "lat" : 41.8244654,
+                        "lng" : -88.0289585
+                     },
+                     "html_instructions" : "Take the exit toward \u003cb\u003eChicago\u003c/b\u003e/\u003cb\u003eAurora\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePartial toll road\u003c/div\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "mgk~FffhxOzAPxABnB@nC?f@AVAlACrCIlBG`OMpAChBCnBEjBCp@AbACpEIvBClGKdCGtIQr@NTBl@@nC?dC?vCA"
+                     },
+                     "start_location" : {
+                        "lat" : 41.84199,
+                        "lng" : -88.02932059999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "9.7 mi",
+                        "value" : 15558
+                     },
+                     "duration" : {
+                        "text" : "9 mins",
+                        "value" : 519
+                     },
+                     "end_location" : {
+                        "lat" : 41.8043185,
+                        "lng" : -88.197243
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eright\u003c/b\u003e at the fork, follow signs for \u003cb\u003eI-88\u003c/b\u003e and merge onto \u003cb\u003eI-88 W\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePartial toll road\u003c/div\u003e",
+                     "maneuver" : "fork-right",
+                     "polyline" : {
+                        "points" : "}yg~F~chxOZBz@?PAH?FANAPCXILCJEJEHEJETMLIFEBCLIBCJGx@q@jA_A`Aw@NKHIPMLKTOJGXOPKNGLGHEHERIFCLEHCLENGRERG@?LCPEPCJCPCJCTCPCNAVALAL?l@AT?H?L@H?P@L@N@H?J@H@L@H@JBH@H@J@JBRDNBH@HBF@LBNDLDJBHBFDHBFBLDJFJBHDNFHBHBJDLDJDJDHBLDJDFBD?B@@?@?@?@?B?@??A@?@?BA?A@?BC`@N`@Nn@Tl@TvAj@nAf@VLDBXLPH`@VNHNH^T\\VZRf@`@\\XRPh@h@XXZ^HHFHPRLN^f@RXRXLRRZb@v@^p@Vf@Rd@P`@JTN^L^f@tAL`@Nj@Pn@J`@Nr@Jf@FXH^Lx@NdAFf@Fh@DZDf@Df@FbABf@B`@@V@R?JBb@?^@n@?h@?h@?\\CfCI|FGrDEfCErCC|BIjGKdHMhJEnB?b@GhECpAAz@Af@AfAA^AlAExCEbDA|@EzBCrBCjAAn@A|@ApAEnBAfACpBAh@?`AAhA?`AArA@jB?nB@rB@fB@t@@lA@`DBnFDlJBlEBtEBbE@lCJ|T?X@bA@j@@^BXBn@@VFx@Dh@BPB\\Dh@Fb@Fl@Fb@N|@Hh@Jh@Ln@XjAVbA\\lAFP\\bABHv@xBXx@`@bAf@tAPb@f@xA^bAf@pAHVr@pBb@rA`@dAXz@Pj@Tr@Nj@XrANp@VvARpALhAH|@Ht@HbADt@Bf@Br@@^@z@@d@@b@AvBA~CA|B?pAAjC?h@?@A~AAZAxCAxCCxHExHEjJAxECxEAzA?|ACtECxEC`HAnCApCC`HC`HAj@AvCCdFA~DEbHI~WAz@?b@?H?hA?@Ab@?@?@?bAA`@CdH?bAIfQ?B?X?h@?JA\\C`IE`IEvJEdOChHCfGAlAGhMAxDCrHArB?nDAtDAjN?nF?x@A~H?~HA`I?~HAbD?pE?tF?^?J?bA?NAtC?~I?~FAxC?lA?xBA~D?rD?pB?zBAlC?fA?jA?d@?P?@?jB?vB?hB@fBBtCFzDBrADnABr@Br@PjFNnDJnDBn@@FBf@@l@PzDFzAD|AVdGRdGFnAZbJ\\bJDp@JzCNpDNzEJ~B@^@D@ZHnBBv@@NRbGXbG\\fJb@jLNhE"
+                     },
+                     "start_location" : {
+                        "lat" : 41.8244654,
+                        "lng" : -88.0289585
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 mi",
+                        "value" : 482
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 38
+                     },
+                     "end_location" : {
+                        "lat" : 41.8048317,
+                        "lng" : -88.2029142
+                     },
+                     "html_instructions" : "Take exit \u003cb\u003e123\u003c/b\u003e for \u003cb\u003eIL-59\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "_|c~Fv_iyOI\\AB?BAD?@?BB`BN`JBpAAl@Aj@Ad@E^?BEh@CZG^Mt@UhA_@jBMn@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.8043185,
+                        "lng" : -88.197243
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 mi",
+                        "value" : 569
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 54
+                     },
+                     "end_location" : {
+                        "lat" : 41.809748,
+                        "lng" : -88.20352869999999
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eright\u003c/b\u003e at the fork, follow signs for \u003cb\u003eWarrenville E\u003c/b\u003e and merge onto \u003cb\u003eIL-59 N\u003c/b\u003e",
+                     "maneuver" : "fork-right",
+                     "polyline" : {
+                        "points" : "e_d~FdcjyOSh@CLGNGHIJKHKFMBUFg@@q@@o@Bw@?g@@a@?mA?a@?_@Ai@AcAAoACeAAYAO?m@?k@@e@?_@@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.8048317,
+                        "lng" : -88.2029142
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 273
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 39
+                     },
+                     "end_location" : {
+                        "lat" : 41.8104278,
+                        "lng" : -88.206553
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eW Ferry Rd\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "}}d~F`gjyOY?C^UtBOrAMfAUhBI~@K`AI|@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.809748,
+                        "lng" : -88.20352869999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 mi",
+                        "value" : 201
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 20
+                     },
+                     "end_location" : {
+                        "lat" : 41.8086612,
+                        "lng" : -88.2062964
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eCelebration Dr\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "ebe~F|yjyOTFD@v@Dl@?j@El@Qr@Yb@Ml@A"
+                     },
+                     "start_location" : {
+                        "lat" : 41.8104278,
+                        "lng" : -88.206553
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "}s|_GvbwxO?~ChEAx@Ih@Wz@m@x@cAj@u@dBeBpDmDb@w@h@gA|B`CdCnCj@ZdAXvAB~AIxAd@THrEy\\x@yFnHei@fBsM`AaGz@eEvB}IpB}G~@oCnBqFhEuJjAcCdByD|@aCn@qBfH?tT?xN?`O?dAF~@N~@V`DxA`Ab@j@LhAb@jBb@bDNfELbAFRWJQJ_AFeFAiBCcB@cC\\aGjAuR@}@Cc@f@uItBo]xDcn@n@}Kp@iKhAsQn@eKr@wKRy@zAaU|By^NcCNw@Fa@b@yETcBj@iC~@oBzBkEpAmBxAuB`@{@tAsDf@_AZ]^Yv@Yz@It@AHEHIjCHhADxAFfF^lFj@~RzBzMrA^CJGjDb@bAJnCXhG`@vENvHBzGAnN@|XF`{@ZdGGvIe@~Go@zDk@zDq@xSmE`K{Btb@cJxi@oLpDw@pCg@hJiAvAMp@A|@KzF[lFKbQ?f[FxIHhDHpETnFd@tMtAvU`CrBTLC^@fIx@hK~@rF`@~SdAvLl@nBRlAR~C|@nChA~CnBhA|@fAdAdAhApAdBnDvFjHvL|E|HvBpC`DzCjBrAnCvA~An@jCt@`Dd@vCP~GBlD?zh@Nva@BbOHpKHtp@NhD?xEBbd@NhKDfUFxKC|`@e@vBCn^e@vJMdDGlDa@pBe@xBu@`Aa@jE}BlH_E`KuFvB}@nBo@vBi@nAUhBUrBOfBGfC@rBHfBPnCb@dDx@`DjAdBx@`BbAtIxFtFjDjH|DzIfE~GrCjEzAbBl@vGnB|HnBnCh@~B\\`DVfCDbB?vBKzCYfDk@zDiAdBq@fCkAxDcCvBeBnAmAdDuD|CqErAeChB}DfDqIhBwDzBcDbAkAzAuAbBkAdAo@nB}@`Bi@xA[|@ObAKhBIrCG|DEzAPxAB~F@~@C`FMnRUvKQ~LSrKStIQr@NbADtG?vCAZBlAAr@G~@Yx@c@\\WlGaFlAs@p@[xBs@rB]fAIzAAfBJbBVbB^rAh@~Aj@p@PNC@Ad@JvEfBfCfArAt@`CbBtBnB~@fAtAjBdBxChAdCrAvD|@pDj@zCd@rDVzDFxAD|CMlMaAxq@UxQ_@dXQrRHpXb@j`AHhDRjDT|Bh@xDjAhFfAlD|G`RbCbHpAfEh@dCj@hDj@`GNpDB|FIbTs@xlBoAvcDOj`@C`a@Ef|@Gf}@?zOPlO^bLx@hT`Cno@fAzYr@nQ`ArWNhEI\\AFAFVxOK~CQhBqAzGg@pAUTYJ}@HaBDoE@oDE_EG_DBY?C^e@hEy@rHI|@TF|@FxAE`Bk@b@Ml@A"
+         },
+         "summary" : "I-355 S and I-88 W",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

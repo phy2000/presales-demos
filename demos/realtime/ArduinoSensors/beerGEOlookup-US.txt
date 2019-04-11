@@ -1,0 +1,10 @@
+1	41.9342045	-87.6629036	Elbo Room	2871 N Lincoln Ave	"Chicago IL"	60657	USA
+2	42.02153	-88.1852097	Chicago Loop	7 W Streamwood Blvd	"Streamwood IL"	60107	USA
+3	41.8052989	-88.2040956	Citygate Grille	2020 Calamos Ct	"Naperville IL"	60563	USA
+4	30.2020576	-97.6699973	Saltlick	3600 Presidential Blvd	"Driftwood TX"	78719	USA
+5	30.2768114	-97.7343487	Monks Jazz Club	1201 E Cesar Chavez St	"Austin TX"	78702	USA
+6	33.6255675	-111.9256781	Eddie V's	15323 N Scottsdale Rd	"Scottsdale AZ"	85254	USA
+7	34.1396041	-118.2094706	Colombo's Steakhouse and Jazz	1833 Colorado Blvd	"Los Angeles CA"	90041	USA
+8	33.9546182	-118.8826027	Dizzy's Jazz Club	1717 Morena Blvd	"San Diego CA"	92110	USA
+9	33.9543565	-118.8826131	The Pickle Room	122 E Canon Perdido St	"Santa Barbara CA"	93101	USA
+10	37.7515265	-122.3978674	Club Deluxe	1511 Haight St	"San Francisco CA"	94117	USA

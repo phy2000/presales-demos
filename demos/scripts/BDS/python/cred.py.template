@@ -1,0 +1,14 @@
+#--------------------------------------------------------------------------------
+# These tokens are needed for user authentication.
+# Credentials can be generates via Twitter's Application Management:
+#	https://apps.twitter.com/app/new
+#--------------------------------------------------------------------------------
+
+access_key = 'TWITTER_ACCESS_KEY'
+access_secret = 'TWITTER_ACCESS_SECRET'
+
+consumer_key = 'TWITTER_CONSUMER_KEY'
+consumer_secret = 'TWITTER_CONSUMER_SECRET'
+
+aws_access_key = 'AWS_ACCESS_KEY'
+aws_secret_key = 'AWS_SECRET_KEY'
